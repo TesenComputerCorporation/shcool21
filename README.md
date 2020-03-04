@@ -1,5 +1,5 @@
 # shcool21
-Pool of shcool21
-This is a my code and a subjects for pool shcool21 by Sberbank.
+"Бассейн" Школы 21
+Мои файлы с бассейна Школы 21 от Сбербанк.
 Moscow, Russia
 2018
