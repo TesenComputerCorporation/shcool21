@@ -1,0 +1,236 @@
+Subject: [Deepthought] Your trace for Day 08
+From: deepthought-no-reply@21-school.ru
+To: jjerde@student.21-school.ru
+Date: Sat, 29 Sep 2018 23:38:06 +0300
+
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e4r7p11.21-school.ru
+Darwin 16.7.0 x86_64
+$> date
+Sat Sep 29 23:37:49 MSK 2018
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2018/activities/piscine_c_day_08/jjerde
+
+= Git history ==================================================================
+$> git -C /var/folders/z4/721xzbn54kbd9gmwhts8j2_w0000gq/T/tmpCHj8ES/user log --pretty='%H - %an, %ad : %s'
+4bb078b33c5bd1cde69cfc724b1c6ee0d9f909e4 - Jhiqui Jerde, Fri Sep 28 16:53:49 2018 +0300 : sdfasgafsdgafsgafsgsfgdfsgsafgsaf
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/z4/721xzbn54kbd9gmwhts8j2_w0000gq/T/tmpCHj8ES/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  743 Sep 29 23:37 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Sep 29 23:37 ex00
+drwxr-xr-x  3 deepthought  deepthought  102 Sep 29 23:37 ex01
+drwxr-xr-x  3 deepthought  deepthought  102 Sep 29 23:37 ex02
+drwxr-xr-x  3 deepthought  deepthought  102 Sep 29 23:37 ex03
+drwxr-xr-x  3 deepthought  deepthought  102 Sep 29 23:37 ex04
+drwxr-xr-x  4 deepthought  deepthought  136 Sep 29 23:37 ex05
+drwxr-xr-x  4 deepthought  deepthought  136 Sep 29 23:37 ex06
+
+/var/folders/z4/721xzbn54kbd9gmwhts8j2_w0000gq/T/tmpCHj8ES/user/ex00:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1888 Sep 29 23:37 ft_split_whitespaces.c
+
+/var/folders/z4/721xzbn54kbd9gmwhts8j2_w0000gq/T/tmpCHj8ES/user/ex01:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1073 Sep 29 23:37 ft.h
+
+/var/folders/z4/721xzbn54kbd9gmwhts8j2_w0000gq/T/tmpCHj8ES/user/ex02:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1179 Sep 29 23:37 ft_boolean.c
+
+/var/folders/z4/721xzbn54kbd9gmwhts8j2_w0000gq/T/tmpCHj8ES/user/ex03:
+total 8
+-rw-r--r--  1 deepthought  deepthought  990 Sep 29 23:37 ft_abs.h
+
+/var/folders/z4/721xzbn54kbd9gmwhts8j2_w0000gq/T/tmpCHj8ES/user/ex04:
+total 8
+-rw-r--r--  1 deepthought  deepthought  995 Sep 29 23:37 ft_point.h
+
+/var/folders/z4/721xzbn54kbd9gmwhts8j2_w0000gq/T/tmpCHj8ES/user/ex05:
+total 16
+-rw-r--r--  1 deepthought  deepthought  1622 Sep 29 23:37 ft_param_to_tab.c
+-rw-r--r--  1 deepthought  deepthought  1223 Sep 29 23:37 ft_stock_par.h
+
+/var/folders/z4/721xzbn54kbd9gmwhts8j2_w0000gq/T/tmpCHj8ES/user/ex06:
+total 16
+-rw-r--r--  1 deepthought  deepthought  1537 Sep 29 23:37 ft_show_tab.c
+-rw-r--r--  1 deepthought  deepthought  1204 Sep 29 23:37 ft_stock_par.h
+
+= ex00 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_split_whitespaces.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_split_whitespaces.c main.c -o user_exe
+
+= Test 1 ===================================================
+$> ./iuyy08y4a5kls58nowt3duh7 "						  "
+Command './iuyy08y4a5kls58nowt3duh7 "						  "' got killed by a Segmentation fault (Signal -11)
+Grade: 0
+
+= ex01 =========================================================================
+$> /usr/bin/norminette  ft.h | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_strlen.c ft_swap.c ft_strcmp.c ft_putstr.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./5t4vhpm2kwakdaf8gn91lrt3
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 9
+
+= ex02 =========================================================================
+$> /usr/bin/norminette   | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror test_ft_boolean.c -o user_exe
+test_ft_boolean.c:2:10: fatal error: 'ft_boolean.h' file not found
+#include "ft_boolean.h"
+         ^~~~~~~~~~~~~~
+1 error generated.
+
+Could not compile 'user_exe'
+Grade: 0
+
+= ex03 =========================================================================
+$> /usr/bin/norminette  ft_abs.h | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./7assiy6myezw59pqxtdl2thp "-353042022" "1851094307" "571648163"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./fu0fmmmuhju332dv9ab28nys "-267754677" "1233951504" "-2075799493"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./c3pdpu0r3lca1ffkgj2c1tnn "1700699173" "-1463749387" "1621718515"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./a604a2nv6zx4zeu731ggr8hb "762341349" "1583099192" "-1845213372"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./469sm4r0obbrtlyshj7tpnxw "651943294" "1553921421" "634650372"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./loyxhx4vpac85ibitalpy68b "-407013109" "-1558631278" "-1601275001"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./2f3z83anv4i1e6kp7xzrf3ye "-39413748" "-1714673987" "252607329"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./bqpcz5w612u40t68rkcfjbn7 "-378537755" "-1859540350" "970818747"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./9cpfedqbonglqemlomcbrzd2 "-1838559280" "-661200969" "-1266731552"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex04 =========================================================================
+$> /usr/bin/norminette  ft_point.h | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror test_ft_point.c -o user_exe
+
+= Test 1 ===================================================
+$> ./pphskivhdz51ktiv480dd6e5
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex05 =========================================================================
+$> /usr/bin/norminette  ft_param_to_tab.c ft_stock_par.h | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_param_to_tab.c ft_split_whitespaces.c ft_show_tab.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./eomwj8iugmooouxjmaptkipx
+Command './eomwj8iugmooouxjmaptkipx ' got killed by a Segmentation fault (Signal -11)
+Grade: 0
+
+= ex06 =========================================================================
+$> /usr/bin/norminette  ft_stock_par.h ft_show_tab.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_param_to_tab.c ft_show_tab.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./exk6hyxaoklmpu8tpktgnbty
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./qgu89dacj2j77dg69kvelebl "ijQFvwMhxHE3VC"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./aafujkqtba80bgzlu1paxa2p "9WNKe6kmVDt"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./k6db1ji6lbkw2agygxh3bh7v "Si6DWeJ7HrVx jVW GxRoPbLjwFge 7L HpiIswx3QBR rXS6TKaFi9 Nher7Fg"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./2kiphjzgb1193q36u53iipyx "GcZ Gv9rJKie h1f IDw9usOb uB3MQTtOv bi z0rNk UBt87Ic iUN FcG"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./p1uxh1jgiqrnloybsgk1okyb "SHwLU" "DF" "kVCEsHLwUm" "Yg" "lx21MjWb5g" "gTzcQqkW" "TarwG" "yD5mB" "H5OqGxg"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./05byg85atq5n88do6wbkj3lq "x5iLpWKG1V" "jvnEfgm8TF" "Yrh6EbV5RgLT" "rGRnp" "96ThJo" "5GQl" "jMbTp16y" "0CBx" "gWO" "ptZXBH2lf"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./fqh14cfqq4e1ghg4muljmzxg "JiucxDU1oq nv8Ed l F4gZTw8t9G" "ro10xwPu2E IypL zvp2odTQUf3 QhNgd12fnCb" "IrAak2G bQwYkNo9ZjeJ zgUpMmACEt" "9M1qNYkP2U 5n" "i0OqW3jgn NMJq" "9Me" "pLnvU5qgzV oJMXmh"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./a4gurv1j9e87jte9vb45oxxv "7IlD" "MUjokv9Y" "VhHZubUy5ovQ h8t4dP" "bfl" "XL5h" "gChmVx5f h" "J4aAdtyBw ZHGK Zl0p6aOqmkt RdVqt" "BK6fPtZ9og qblY6Q 2Mx W" "P7r9AlMaCv" "x rpjs49mD 9oz2r" "3p mtLMQf23"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+Grade: 30
+
+= Final grade: 0 ===============================================================
+
+END

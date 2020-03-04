@@ -1,0 +1,220 @@
+Subject: [Deepthought] Your trace for Day 12
+From: deepthought-no-reply@21-school.ru
+To: jjerde@student.21-school.ru
+Date: Fri, 05 Oct 2018 20:30:37 +0300
+
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e2r12p4.21-school.ru
+Darwin 16.7.0 x86_64
+$> date
+Fri Oct  5 20:30:25 MSK 2018
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2018/activities/piscine_c_day_12/jjerde
+
+= Git history ==================================================================
+$> git -C /var/folders/z4/l4p0bx4j2jnf51jlqmkmfs740000gq/T/tmprJwQ_O/user log --pretty='%H - %an, %ad : %s'
+a83df1bb90164f00f2c6a0107d4045a776046353 - Jhiqui Jerde, Thu Oct 4 23:01:18 2018 +0300 : CATgit add *@#@#
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/z4/l4p0bx4j2jnf51jlqmkmfs740000gq/T/tmprJwQ_O/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  696 Oct  5 20:30 __GIT_HISTORY
+drwxr-xr-x  7 deepthought  deepthought  238 Oct  5 20:30 ex00
+drwxr-xr-x  7 deepthought  deepthought  238 Oct  5 20:30 ex01
+
+/var/folders/z4/l4p0bx4j2jnf51jlqmkmfs740000gq/T/tmprJwQ_O/user/ex00:
+total 40
+-rw-r--r--  1 deepthought  deepthought  1104 Oct  5 20:30 Makefile
+-rw-r--r--  1 deepthought  deepthought  1311 Oct  5 20:30 display_file.c
+-rw-r--r--  1 deepthought  deepthought   959 Oct  5 20:30 ft_putchar.c
+-rw-r--r--  1 deepthought  deepthought  1019 Oct  5 20:30 ft_putstr.c
+-rw-r--r--  1 deepthought  deepthought  1077 Oct  5 20:30 header.h
+
+/var/folders/z4/l4p0bx4j2jnf51jlqmkmfs740000gq/T/tmprJwQ_O/user/ex01:
+total 40
+-rw-r--r--  1 deepthought  deepthought  1095 Oct  5 20:30 Makefile
+-rw-r--r--  1 deepthought  deepthought   959 Oct  5 20:30 ft_putchar.c
+-rw-r--r--  1 deepthought  deepthought  1019 Oct  5 20:30 ft_putstr.c
+-rw-r--r--  1 deepthought  deepthought  1099 Oct  5 20:30 header.h
+-rw-r--r--  1 deepthought  deepthought  1851 Oct  5 20:30 this_is_cat.c
+
+= ex00 =========================================================================
+$> /usr/bin/norminette  header.h ft_putstr.c display_file.c ft_putchar.c | grep -E '^(Error|Warning)'
+
+$> make clean && make && make fclean && make && make clean && ls -la ft_display_file
+/bin/rm -f *.o
+gcc -Wall -Wextra -Werror -c -I. *.c
+gcc -o ft_display_file *.o
+/bin/rm -f *.o
+/bin/rm -f ft_display_file
+gcc -Wall -Wextra -Werror -c -I. *.c
+gcc -o ft_display_file *.o
+/bin/rm -f *.o
+-rwxr-xr-x  1 deepthought  deepthought  8788 Oct  5 20:30 ft_display_file
+
+= Test 1 ===================================================
+$> ./8z5n4ici2bh7rzosxaunsn6j
+$> diff -U 3 user_output_test1 test1.output | cat -e
+--- user_output_test1	2018-10-05 20:30:31.000000000 +0300$
++++ test1.output	2018-10-05 20:30:31.000000000 +0300$
+@@ -0,0 +1 @@$
++File name missing.$
+
+Diff KO :(
+Grade: 0
+
+= ex01 =========================================================================
+$> /usr/bin/norminette  header.h ft_putchar.c this_is_cat.c ft_putstr.c | grep -E '^(Error|Warning)'
+
+$> make clean && make && make fclean && make && make clean && ls -la ft_cat
+/bin/rm -f *.o
+gcc -Wall -Wextra -Werror -c -I. *.c
+gcc -o ft_cat *.o
+/bin/rm -f *.o
+/bin/rm -f ft_cat
+gcc -Wall -Wextra -Werror -c -I. *.c
+gcc -o ft_cat *.o
+/bin/rm -f *.o
+-rwxr-xr-x  1 deepthought  deepthought  8924 Oct  5 20:30 ft_cat
+
+= Test 1 ===================================================
+$> ./sohctpb546nrw478aw49zo2j abczaopfkjzemlgijez
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./sy64wmkicqj9icgbr2crimrw abczaopfkjzemlgijez hyper_file.txt tozi hyper_file2.txt hyper_file.txt tozi hyper_file2.txt hyper_file.txt tozi hyper_file2.txt hyper_file.txt tozi hyper_file2.txt hyper_file.txt tozi hyper_file2.txt hyper_file.txt tozi hyper_file2.txt
+$> diff -U 3 user_output_test2 test2.output | cat -e
+--- user_output_test2	2018-10-05 20:30:33.000000000 +0300$
++++ test2.output	2018-10-05 20:30:33.000000000 +0300$
+@@ -1 +1,97 @@$
+ cat: abczaopfkjzemlgijez: No such file or directory$
++$
++--------------- < > ----------------$
++$
++Season 6$
++of The Big Bang Theory has been marked by slowly brewing tension among the various characters. Leonard and Penny have hit another plateau in their relationship, with Leonard ready to settle down but Penny being her usual waffle-y self. meanwhile, Sheldon has spent the bulk of the season treating Amy like less of a partner and more of a pack mule, a role which until now she's been content to play. But all the tension finally bubbled to the surface this week as these two relationships hit major bumps. And it's all that damned Harry Potter's fault.$
++$
++As egocentric as Sheldon has been lately, there was bound to be something that set Leonard off one of these days. I suppose an argument over Harry Potter spoilers is as valid as anything else. And certainly, anyone who struggled to power-read the final couple of books before spoilers hit the grapevine can sympathize. It was an amusing way to kick off what was a relatively dark episode by Big Bang standards. However, I thought the writers were a little cruel when they mirrored the conflict at the end by having Sheldon spoil a major character death in The Walking Dead. Harry Potter spoilers are fair game at this point. The final book is well over five years old and the movie adaptations have come and gone. But to spoil a major development in a TV season that isn't even finished yet, much less available on DVD, is just cruel and thoughtless on the part of the writers.$
++$
++-------------------------------------$
++FUN PART ==>$
++$
++:-)$
++cat: tozi: No such file or directory$
++Keytar Portland try-hard, adipisicing disrupt quis tofu nulla hashtag sed aesthetic blue bottle. YOLO authentic letterpress umami, before they sold out ad intelligentsia next level kale chips deserunt. Quis aliquip ad, tote bag trust fund DIY ut photo booth polaroid Vice street art culpa. Tonx Echo Park hashtag chillwave tote bag, viral organic irony flannel roof party labore fugiat thundercats direct trade High Life. Tote bag non shoreditch nisi, deep v anim eiusmod put a bird on it id banjo swag pork belly Marfa. Leggings keffiyeh gluten-free ex small batch, seitan minim yr retro 90's cornhole sustainable. Forage fingerstache blog duis fashion axe kitsch.$
++$
++Adipisicing freegan laboris do whatever post-ironic craft beer labore. Tonx McSweeney's iPhone eiusmod, officia exercitation Odd Future readymade consequat umami Schlitz DIY Echo Park banh mi. Shoreditch mollit shabby chic, gastropub consectetur PBR four loko fixie. IPhone wayfarers officia pop-up, cray ea actually fanny pack odio. Blog officia try-hard hella sartorial gentrify esse id. Fingerstache squid vero bespoke labore swag, voluptate brunch. Lomo cornhole consequat Tonx Pinterest.$
++$
++--------------- < > ----------------$
++$
++Season 6$
++of The Big Bang Theory has been marked by slowly brewing tension among the various characters. Leonard and Penny have hit another plateau in their relationship, with Leonard ready to settle down but Penny being her usual waffle-y self. meanwhile, Sheldon has spent the bulk of the season treating Amy like less of a partner and more of a pack mule, a role which until now she's been content to play. But all the tension finally bubbled to the surface this week as these two relationships hit major bumps. And it's all that damned Harry Potter's fault.$
++$
++As egocentric as Sheldon has been lately, there was bound to be something that set Leonard off one of these days. I suppose an argument over Harry Potter spoilers is as valid as anything else. And certainly, anyone who struggled to power-read the final couple of books before spoilers hit the grapevine can sympathize. It was an amusing way to kick off what was a relatively dark episode by Big Bang standards. However, I thought the writers were a little cruel when they mirrored the conflict at the end by having Sheldon spoil a major character death in The Walking Dead. Harry Potter spoilers are fair game at this point. The final book is well over five years old and the movie adaptations have come and gone. But to spoil a major development in a TV season that isn't even finished yet, much less available on DVD, is just cruel and thoughtless on the part of the writers.$
++$
++-------------------------------------$
++FUN PART ==>$
++$
++:-)$
++cat: tozi: No such file or directory$
++Keytar Portland try-hard, adipisicing disrupt quis tofu nulla hashtag sed aesthetic blue bottle. YOLO authentic letterpress umami, before they sold out ad intelligentsia next level kale chips deserunt. Quis aliquip ad, tote bag trust fund DIY ut photo booth polaroid Vice street art culpa. Tonx Echo Park hashtag chillwave tote bag, viral organic irony flannel roof party labore fugiat thundercats direct trade High Life. Tote bag non shoreditch nisi, deep v anim eiusmod put a bird on it id banjo swag pork belly Marfa. Leggings keffiyeh gluten-free ex small batch, seitan minim yr retro 90's cornhole sustainable. Forage fingerstache blog duis fashion axe kitsch.$
++$
++Adipisicing freegan laboris do whatever post-ironic craft beer labore. Tonx McSweeney's iPhone eiusmod, officia exercitation Odd Future readymade consequat umami Schlitz DIY Echo Park banh mi. Shoreditch mollit shabby chic, gastropub consectetur PBR four loko fixie. IPhone wayfarers officia pop-up, cray ea actually fanny pack odio. Blog officia try-hard hella sartorial gentrify esse id. Fingerstache squid vero bespoke labore swag, voluptate brunch. Lomo cornhole consequat Tonx Pinterest.$
++$
++--------------- < > ----------------$
++$
++Season 6$
++of The Big Bang Theory has been marked by slowly brewing tension among the various characters. Leonard and Penny have hit another plateau in their relationship, with Leonard ready to settle down but Penny being her usual waffle-y self. meanwhile, Sheldon has spent the bulk of the season treating Amy like less of a partner and more of a pack mule, a role which until now she's been content to play. But all the tension finally bubbled to the surface this week as these two relationships hit major bumps. And it's all that damned Harry Potter's fault.$
++$
++As egocentric as Sheldon has been lately, there was bound to be something that set Leonard off one of these days. I suppose an argument over Harry Potter spoilers is as valid as anything else. And certainly, anyone who struggled to power-read the final couple of books before spoilers hit the grapevine can sympathize. It was an amusing way to kick off what was a relatively dark episode by Big Bang standards. However, I thought the writers were a little cruel when they mirrored the conflict at the end by having Sheldon spoil a major character death in The Walking Dead. Harry Potter spoilers are fair game at this point. The final book is well over five years old and the movie adaptations have come and gone. But to spoil a major development in a TV season that isn't even finished yet, much less available on DVD, is just cruel and thoughtless on the part of the writers.$
++$
++-------------------------------------$
++FUN PART ==>$
++$
++:-)$
++cat: tozi: No such file or directory$
++Keytar Portland try-hard, adipisicing disrupt quis tofu nulla hashtag sed aesthetic blue bottle. YOLO authentic letterpress umami, before they sold out ad intelligentsia next level kale chips deserunt. Quis aliquip ad, tote bag trust fund DIY ut photo booth polaroid Vice street art culpa. Tonx Echo Park hashtag chillwave tote bag, viral organic irony flannel roof party labore fugiat thundercats direct trade High Life. Tote bag non shoreditch nisi, deep v anim eiusmod put a bird on it id banjo swag pork belly Marfa. Leggings keffiyeh gluten-free ex small batch, seitan minim yr retro 90's cornhole sustainable. Forage fingerstache blog duis fashion axe kitsch.$
++$
++Adipisicing freegan laboris do whatever post-ironic craft beer labore. Tonx McSweeney's iPhone eiusmod, officia exercitation Odd Future readymade consequat umami Schlitz DIY Echo Park banh mi. Shoreditch mollit shabby chic, gastropub consectetur PBR four loko fixie. IPhone wayfarers officia pop-up, cray ea actually fanny pack odio. Blog officia try-hard hella sartorial gentrify esse id. Fingerstache squid vero bespoke labore swag, voluptate brunch. Lomo cornhole consequat Tonx Pinterest.$
++$
++--------------- < > ----------------$
++$
++Season 6$
++of The Big Bang Theory has been marked by slowly brewing tension among the various characters. Leonard and Penny have hit another plateau in their relationship, with Leonard ready to settle down but Penny being her usual waffle-y self. meanwhile, Sheldon has spent the bulk of the season treating Amy like less of a partner and more of a pack mule, a role which until now she's been content to play. But all the tension finally bubbled to the surface this week as these two relationships hit major bumps. And it's all that damned Harry Potter's fault.$
++$
++As egocentric as Sheldon has been lately, there was bound to be something that set Leonard off one of these days. I suppose an argument over Harry Potter spoilers is as valid as anything else. And certainly, anyone who struggled to power-read the final couple of books before spoilers hit the grapevine can sympathize. It was an amusing way to kick off what was a relatively dark episode by Big Bang standards. However, I thought the writers were a little cruel when they mirrored the conflict at the end by having Sheldon spoil a major character death in The Walking Dead. Harry Potter spoilers are fair game at this point. The final book is well over five years old and the movie adaptations have come and gone. But to spoil a major development in a TV season that isn't even finished yet, much less available on DVD, is just cruel and thoughtless on the part of the writers.$
++$
++-------------------------------------$
++FUN PART ==>$
++$
++:-)$
++cat: tozi: No such file or directory$
++Keytar Portland try-hard, adipisicing disrupt quis tofu nulla hashtag sed aesthetic blue bottle. YOLO authentic letterpress umami, before they sold out ad intelligentsia next level kale chips deserunt. Quis aliquip ad, tote bag trust fund DIY ut photo booth polaroid Vice street art culpa. Tonx Echo Park hashtag chillwave tote bag, viral organic irony flannel roof party labore fugiat thundercats direct trade High Life. Tote bag non shoreditch nisi, deep v anim eiusmod put a bird on it id banjo swag pork belly Marfa. Leggings keffiyeh gluten-free ex small batch, seitan minim yr retro 90's cornhole sustainable. Forage fingerstache blog duis fashion axe kitsch.$
++$
++Adipisicing freegan laboris do whatever post-ironic craft beer labore. Tonx McSweeney's iPhone eiusmod, officia exercitation Odd Future readymade consequat umami Schlitz DIY Echo Park banh mi. Shoreditch mollit shabby chic, gastropub consectetur PBR four loko fixie. IPhone wayfarers officia pop-up, cray ea actually fanny pack odio. Blog officia try-hard hella sartorial gentrify esse id. Fingerstache squid vero bespoke labore swag, voluptate brunch. Lomo cornhole consequat Tonx Pinterest.$
++$
++--------------- < > ----------------$
++$
++Season 6$
++of The Big Bang Theory has been marked by slowly brewing tension among the various characters. Leonard and Penny have hit another plateau in their relationship, with Leonard ready to settle down but Penny being her usual waffle-y self. meanwhile, Sheldon has spent the bulk of the season treating Amy like less of a partner and more of a pack mule, a role which until now she's been content to play. But all the tension finally bubbled to the surface this week as these two relationships hit major bumps. And it's all that damned Harry Potter's fault.$
++$
++As egocentric as Sheldon has been lately, there was bound to be something that set Leonard off one of these days. I suppose an argument over Harry Potter spoilers is as valid as anything else. And certainly, anyone who struggled to power-read the final couple of books before spoilers hit the grapevine can sympathize. It was an amusing way to kick off what was a relatively dark episode by Big Bang standards. However, I thought the writers were a little cruel when they mirrored the conflict at the end by having Sheldon spoil a major character death in The Walking Dead. Harry Potter spoilers are fair game at this point. The final book is well over five years old and the movie adaptations have come and gone. But to spoil a major development in a TV season that isn't even finished yet, much less available on DVD, is just cruel and thoughtless on the part of the writers.$
++$
++-------------------------------------$
++FUN PART ==>$
++$
++:-)$
++cat: tozi: No such file or directory$
++Keytar Portland try-hard, adipisicing disrupt quis tofu nulla hashtag sed aesthetic blue bottle. YOLO authentic letterpress umami, before they sold out ad intelligentsia next level kale chips deserunt. Quis aliquip ad, tote bag trust fund DIY ut photo booth polaroid Vice street art culpa. Tonx Echo Park hashtag chillwave tote bag, viral organic irony flannel roof party labore fugiat thundercats direct trade High Life. Tote bag non shoreditch nisi, deep v anim eiusmod put a bird on it id banjo swag pork belly Marfa. Leggings keffiyeh gluten-free ex small batch, seitan minim yr retro 90's cornhole sustainable. Forage fingerstache blog duis fashion axe kitsch.$
++$
++Adipisicing freegan laboris do whatever post-ironic craft beer labore. Tonx McSweeney's iPhone eiusmod, officia exercitation Odd Future readymade consequat umami Schlitz DIY Echo Park banh mi. Shoreditch mollit shabby chic, gastropub consectetur PBR four loko fixie. IPhone wayfarers officia pop-up, cray ea actually fanny pack odio. Blog officia try-hard hella sartorial gentrify esse id. Fingerstache squid vero bespoke labore swag, voluptate brunch. Lomo cornhole consequat Tonx Pinterest.$
++$
++--------------- < > ----------------$
++$
++Season 6$
++of The Big Bang Theory has been marked by slowly brewing tension among the various characters. Leonard and Penny have hit another plateau in their relationship, with Leonard ready to settle down but Penny being her usual waffle-y self. meanwhile, Sheldon has spent the bulk of the season treating Amy like less of a partner and more of a pack mule, a role which until now she's been content to play. But all the tension finally bubbled to the surface this week as these two relationships hit major bumps. And it's all that damned Harry Potter's fault.$
++$
++As egocentric as Sheldon has been lately, there was bound to be something that set Leonard off one of these days. I suppose an argument over Harry Potter spoilers is as valid as anything else. And certainly, anyone who struggled to power-read the final couple of books before spoilers hit the grapevine can sympathize. It was an amusing way to kick off what was a relatively dark episode by Big Bang standards. However, I thought the writers were a little cruel when they mirrored the conflict at the end by having Sheldon spoil a major character death in The Walking Dead. Harry Potter spoilers are fair game at this point. The final book is well over five years old and the movie adaptations have come and gone. But to spoil a major development in a TV season that isn't even finished yet, much less available on DVD, is just cruel and thoughtless on the part of the writers.$
++$
++-------------------------------------$
++FUN PART ==>$
++$
++:-)$
++cat: tozi: No such file or directory$
++Keytar Portland try-hard, adipisicing disrupt quis tofu nulla hashtag sed aesthetic blue bottle. YOLO authentic letterpress umami, before they sold out ad intelligentsia next level kale chips deserunt. Quis aliquip ad, tote bag trust fund DIY ut photo booth polaroid Vice street art culpa. Tonx Echo Park hashtag chillwave tote bag, viral organic irony flannel roof party labore fugiat thundercats direct trade High Life. Tote bag non shoreditch nisi, deep v anim eiusmod put a bird on it id banjo swag pork belly Marfa. Leggings keffiyeh gluten-free ex small batch, seitan minim yr retro 90's cornhole sustainable. Forage fingerstache blog duis fashion axe kitsch.$
++$
++Adipisicing freegan laboris do whatever post-ironic craft beer labore. Tonx McSweeney's iPhone eiusmod, officia exercitation Odd Future readymade consequat umami Schlitz DIY Echo Park banh mi. Shoreditch mollit shabby chic, gastropub consectetur PBR four loko fixie. IPhone wayfarers officia pop-up, cray ea actually fanny pack odio. Blog officia try-hard hella sartorial gentrify esse id. Fingerstache squid vero bespoke labore swag, voluptate brunch. Lomo cornhole consequat Tonx Pinterest.$
+
+Diff KO :(
+Grade: 0
+
+= ex02 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex03 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex04 =========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 0 ===============================================================
+
+END

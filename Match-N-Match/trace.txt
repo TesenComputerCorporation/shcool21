@@ -1,0 +1,248 @@
+Subject: [Deepthought] Your trace for Match-N-Match
+From: deepthought-no-reply@21-school.ru
+To: jjerde@student.21-school.ru
+Date: Mon, 01 Oct 2018 19:32:24 +0300
+
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e3r8p2.21-school.ru
+Darwin 16.7.0 x86_64
+$> date
+Mon Oct  1 19:32:09 MSK 2018
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2018/activities/piscine_c_match_n_match/jjerde
+
+= Git history ==================================================================
+$> git -C /var/folders/2m/tn3_qfhx1dz95t0s5157jpwr0000gq/T/tmpVGgJsH/user log --pretty='%H - %an, %ad : %s'
+c04b31abbb3dfc38527f1238b69343a635e3abf6 - Jhiqui Jerde, Sun Sep 30 21:01:49 2018 +0300 : sdfsdfasdfadfsdfadfasdf
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/2m/tn3_qfhx1dz95t0s5157jpwr0000gq/T/tmpVGgJsH/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  311 Oct  1 19:32 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Oct  1 19:32 ex00
+drwxr-xr-x  3 deepthought  deepthought  102 Oct  1 19:32 ex01
+
+/var/folders/2m/tn3_qfhx1dz95t0s5157jpwr0000gq/T/tmpVGgJsH/user/ex00:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1536 Oct  1 19:32 match.c
+
+/var/folders/2m/tn3_qfhx1dz95t0s5157jpwr0000gq/T/tmpVGgJsH/user/ex01:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1193 Oct  1 19:32 nmatch.c
+
+= ex00 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader match.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror match.c main.c -o user_exe
+
+= Test 1 ===================================================
+$> ./k5hbf9rwy0dxzwaisleojjri "" ""
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./v5ft4nnflm3uvkvw0a7s1n0k "" "*"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./wam0r0b1spyv37aujqj86u05 "*" ""
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./jtooyvclxc4bqj6x2z7gxo9d "*" "*"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./ieuldyfkqit7l8w6j50kke2m "1DdEgvAHGk0" ""
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./t5qer4rt84kh5ng05pbwhadv "bIDfghnJZB2TS0" "*"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./o7bq6p7l2thbzl49p3qsais9 "*" "9HLTB8ZXgqOKpjkvt"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./in7grwmrqxyfujyvwxl4bkrd "StRVXALq0.c" "*.c"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./z5ur28ljq2n9shsdc33088yn "GrSvJBP2mRFYp" "GrSvJBP2mRFYp"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+= Test 10 ==================================================
+$> ./akz2esekdr5zv1rxiwgz0gjy "bS*o" "*cxrk*C"
+$> diff -U 3 user_output_test10 test10.output | cat -e
+
+Diff OK :D
+= Test 11 ==================================================
+$> ./c4n2pjwc96cafrlkl97s1bfz "*l*qo" "*HVJngoyExwQ"
+$> diff -U 3 user_output_test11 test11.output | cat -e
+
+Diff OK :D
+= Test 12 ==================================================
+$> ./mgrz7dslzs1hnedggkxc77f4 "Oz*" "i**IJ*Yg***"
+$> diff -U 3 user_output_test12 test12.output | cat -e
+
+Diff OK :D
+= Test 13 ==================================================
+$> ./w5ymhqfn1ilqhqhti5saamrn "APg" "RB*Z"
+$> diff -U 3 user_output_test13 test13.output | cat -e
+
+Diff OK :D
+= Test 14 ==================================================
+$> ./xmiqg1pvz9gqk6g4tye5coro "jepSvn*B" "HqE*Bc*a*oOIYK*"
+$> diff -U 3 user_output_test14 test14.output | cat -e
+
+Diff OK :D
+= Test 15 ==================================================
+$> ./rkarngr6f0adbfjvklxntdd0 "WN*dTUC*c*KOri" "it*"
+$> diff -U 3 user_output_test15 test15.output | cat -e
+
+Diff OK :D
+= Test 16 ==================================================
+$> ./as1s68o6q9haudxm8cyw3c8p "********p**" "**p********"
+$> diff -U 3 user_output_test16 test16.output | cat -e
+--- user_output_test16	2018-10-01 19:32:14.000000000 +0300$
++++ test16.output	2018-10-01 19:32:14.000000000 +0300$
+@@ -1 +1 @@$
+-0$
++1$
+
+Diff KO :(
+Grade: 0
+
+= ex01 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader nmatch.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c nmatch.c -o user_exe
+
+= Test 1 ===================================================
+$> ./deug3ypwawfv7hplzoj4l5lf "" ""
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./32da6gswnkr6vpmxe7pq5weh "" "*"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./6gw8s17bei1kqrtrv3gbtloi "*" ""
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./qlth3f94yiev298h1bh0ze7a "*" "*"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./2ywhs420v3k36ytvinin5om8 "fpeY3qUPVM8CF" ""
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./lj41ipccoowi3namyl8pi6z1 "kzQtcwyY69hnm7Su" "*"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./z2eu5ymly4mj2yok1h7m7mpv "*" "EXIO8ZRpzGSe"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./faew7v2zw8udpoqgnrbqyvcf "s9iU2OHotG.c" "*.c"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./h5rf55nybg92p1dhi8j4g4py "n2bCPUFEvu" "n2bCPUFEvu"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+= Test 10 ==================================================
+$> ./pjawrxk4lapeut0xmaujl72g "So**aT*zftyKprR" "Fm*YCBKX**kLG*W"
+$> diff -U 3 user_output_test10 test10.output | cat -e
+
+Diff OK :D
+= Test 11 ==================================================
+$> ./hvvc7posbjpnv378i2lqi3z5 "Gf*cl*Tue**SMj" "OQU***HozL*Xfdhk"
+$> diff -U 3 user_output_test11 test11.output | cat -e
+
+Diff OK :D
+= Test 12 ==================================================
+$> ./u8mh6sdtom6krypxavj3hs3e "HiLp*u" "ET*q*MlmnS*o*i*"
+$> diff -U 3 user_output_test12 test12.output | cat -e
+
+Diff OK :D
+= Test 13 ==================================================
+$> ./o5en0h7e3sbvao1hi2p8jlw3 "EtYlwy*h*LU" "*qcT"
+$> diff -U 3 user_output_test13 test13.output | cat -e
+
+Diff OK :D
+= Test 14 ==================================================
+$> ./j3e444vj4syeg1d89bon5rxv "jDh*Mb" "*U*qWmkrBVNEf***s"
+$> diff -U 3 user_output_test14 test14.output | cat -e
+
+Diff OK :D
+= Test 15 ==================================================
+$> ./efwirbl5m37pujy48wx5tj8d "tc*a*" "Guv*qd*"
+$> diff -U 3 user_output_test15 test15.output | cat -e
+
+Diff OK :D
+= Test 16 ==================================================
+$> ./06h8lk3oxxq61b6ux365xz8f "*********" "*********"
+$> diff -U 3 user_output_test16 test16.output | cat -e
+
+Diff OK :D
+= Test 17 ==================================================
+$> ./cyvqeuu6up95gkwpuyhp4da5 "**n********" "*******n***"
+$> diff -U 3 user_output_test17 test17.output | cat -e
+
+Diff OK :D
+= Test 18 ==================================================
+$> ./76zr9lp215r3bh5gxd0g60nr "********Y*****" "Y*************"
+$> diff -U 3 user_output_test18 test18.output | cat -e
+
+Diff OK :D
+= Test 19 ==================================================
+$> ./4vxk5oofcvm8h8uxdsqbca7k "***********" "*****h*****"
+$> diff -U 3 user_output_test19 test19.output | cat -e
+
+Diff OK :D
+= Test 20 ==================================================
+$> ./co86386hya3tpjaw9opm8zss "D*******" "********"
+$> diff -U 3 user_output_test20 test20.output | cat -e
+
+Diff OK :D
+Grade: 40
+
+= Final grade: 0 ===============================================================
+
+END

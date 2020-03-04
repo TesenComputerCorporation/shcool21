@@ -1,0 +1,72 @@
+Subject: [Deepthought] Your trace for Day 13
+From: deepthought-no-reply@21-school.ru
+To: jjerde@student.21-school.ru
+Date: Sat, 06 Oct 2018 23:53:31 +0300
+
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e4r12p1.21-school.ru
+Darwin 16.7.0 x86_64
+$> date
+Sat Oct  6 23:52:07 MSK 2018
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2018/activities/piscine_c_day_13/jjerde
+= Collected files ==========================================
+$> ls -lAR /var/folders/ty/12nd_k550jn1496yxwv9g37h0000gq/T/tmpVEV8Yh/user
+
+= ex00 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex01 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex02 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex03 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex04 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex05 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex06 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex07 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex08 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex09 =========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 0 ===============================================================
+
+END

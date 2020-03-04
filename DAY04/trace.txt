@@ -1,0 +1,197 @@
+Subject: [Deepthought] Your trace for Day 04
+From: deepthought-no-reply@21-school.ru
+To: jjerde@student.21-school.ru
+Date: Sun, 23 Sep 2018 14:29:29 +0300
+
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e2r14p2.21-school.ru
+Darwin 16.7.0 x86_64
+$> date
+Sun Sep 23 14:29:13 MSK 2018
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2018/activities/piscine_c_day_04/jjerde
+
+= Git history ==================================================================
+$> git -C /var/folders/wm/1sz1r3y11m1cn3lcd86kpz2w0000gq/T/tmpWqOZB3/user log --pretty='%H - %an, %ad : %s'
+991b9a91a6032859bdd63827d2f41461cfa28869 - Jhiqui Jerde, Sat Sep 22 21:39:16 2018 +0300 : Uploading Day04 to repo....
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/wm/1sz1r3y11m1cn3lcd86kpz2w0000gq/T/tmpWqOZB3/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1131 Sep 23 14:29 __GIT_HISTORY
+drwxr-xr-x  4 deepthought  deepthought   136 Sep 23 14:29 ex00
+drwxr-xr-x  4 deepthought  deepthought   136 Sep 23 14:29 ex01
+drwxr-xr-x  4 deepthought  deepthought   136 Sep 23 14:29 ex02
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 23 14:29 ex03
+drwxr-xr-x  4 deepthought  deepthought   136 Sep 23 14:29 ex04
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 23 14:29 ex05
+drwxr-xr-x  4 deepthought  deepthought   136 Sep 23 14:29 ex06
+drwxr-xr-x  4 deepthought  deepthought   136 Sep 23 14:29 ex07
+
+/var/folders/wm/1sz1r3y11m1cn3lcd86kpz2w0000gq/T/tmpWqOZB3/user/ex00:
+total 24
+-rw-r--r--  1 deepthought  deepthought  6148 Sep 23 14:29 .DS_Store
+-rw-r--r--  1 deepthought  deepthought  1135 Sep 23 14:29 ft_iterative_factorial.c
+
+/var/folders/wm/1sz1r3y11m1cn3lcd86kpz2w0000gq/T/tmpWqOZB3/user/ex01:
+total 24
+-rw-r--r--  1 deepthought  deepthought  6148 Sep 23 14:29 .DS_Store
+-rw-r--r--  1 deepthought  deepthought  1130 Sep 23 14:29 ft_recursive_factorial.c
+
+/var/folders/wm/1sz1r3y11m1cn3lcd86kpz2w0000gq/T/tmpWqOZB3/user/ex02:
+total 24
+-rw-r--r--  1 deepthought  deepthought  6148 Sep 23 14:29 .DS_Store
+-rw-r--r--  1 deepthought  deepthought  1158 Sep 23 14:29 ft_iterative_power.c
+
+/var/folders/wm/1sz1r3y11m1cn3lcd86kpz2w0000gq/T/tmpWqOZB3/user/ex03:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1139 Sep 23 14:29 ft_recursive_power.c
+
+/var/folders/wm/1sz1r3y11m1cn3lcd86kpz2w0000gq/T/tmpWqOZB3/user/ex04:
+total 24
+-rw-r--r--  1 deepthought  deepthought  6148 Sep 23 14:29 .DS_Store
+-rw-r--r--  1 deepthought  deepthought  1147 Sep 23 14:29 ft_fibonacci.c
+
+/var/folders/wm/1sz1r3y11m1cn3lcd86kpz2w0000gq/T/tmpWqOZB3/user/ex05:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1099 Sep 23 14:29 ft_sqrt.c
+
+/var/folders/wm/1sz1r3y11m1cn3lcd86kpz2w0000gq/T/tmpWqOZB3/user/ex06:
+total 24
+-rw-r--r--  1 deepthought  deepthought  6148 Sep 23 14:29 .DS_Store
+-rw-r--r--  1 deepthought  deepthought  1150 Sep 23 14:29 ft_is_prime.c
+
+/var/folders/wm/1sz1r3y11m1cn3lcd86kpz2w0000gq/T/tmpWqOZB3/user/ex07:
+total 32
+-rw-r--r--  1 deepthought  deepthought  12288 Sep 23 14:29 .ft_find_next_prime.c.swp
+-rw-r--r--  1 deepthought  deepthought   1199 Sep 23 14:29 ft_find_next_prime.c
+
+= ex00 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_iterative_factorial.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_putchar.c ft_iterative_factorial.c -o user_exe
+
+= Test 1 ===================================================
+$> ./0n9mz8tj258i3t822dabm9kn
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex01 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_recursive_factorial.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_putchar.c ft_recursive_factorial.c -o user_exe
+
+= Test 1 ===================================================
+$> ./xeabel5vs4uogfqruuagb1ld
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex02 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_iterative_power.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_iterative_power.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./cwtnq168iswkmdis93azjvf4
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex03 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_recursive_power.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_recursive_power.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./1gz4n2pwh9d9a2nym9rml6y5
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex04 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_fibonacci.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_fibonacci.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./gtut8sm5nxnzy5zkgl3ccpka
+$> diff -U 3 user_output_test1 test1.output | cat -e
+--- user_output_test1	2018-09-23 14:29:19.000000000 +0300$
++++ test1.output	2018-09-23 14:29:19.000000000 +0300$
+@@ -1,4 +1,4 @@$
+-fibonacci of -147 is 1$
++fibonacci of -147 is -1$
+ fibonacci of 0 is 0$
+ fibonacci of 1 is 1$
+ fibonacci of 2 is 1$
+
+Diff KO :(
+Grade: 0
+
+= ex05 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_sqrt.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_putchar.c ft_sqrt.c -o user_exe
+ft_sqrt.c:35:1: error: control may reach end of non-void function [-Werror,-Wreturn-type]
+}
+^
+1 error generated.
+
+Could not compile 'user_exe'
+Grade: 0
+
+= ex06 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_is_prime.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_is_prime.c main.c ft_putchar.c -o user_exe
+ft_is_prime.c:37:1: error: control may reach end of non-void function [-Werror,-Wreturn-type]
+}
+^
+1 error generated.
+
+Could not compile 'user_exe'
+Grade: 0
+
+= ex07 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_find_next_prime.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_find_next_prime.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./z8bfyhw53ku5hg8oqn2wf117
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex08 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex09 =========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 30 ==============================================================
+
+END

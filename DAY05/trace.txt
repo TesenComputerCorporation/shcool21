@@ -1,0 +1,472 @@
+Subject: [Deepthought] Your trace for Day 05
+From: deepthought-no-reply@21-school.ru
+To: jjerde@student.21-school.ru
+Date: Wed, 26 Sep 2018 15:15:19 +0300
+
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1r5p3.21-school.ru
+Darwin 16.7.0 x86_64
+$> date
+Wed Sep 26 15:14:48 MSK 2018
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2018/activities/piscine_c_day_05/jjerde
+
+= Git history ==================================================================
+$> git -C /var/folders/vn/rdt46_v535b45ffy1b7x2p7w0000gq/T/tmplBSyB4/user log --pretty='%H - %an, %ad : %s'
+c3e5ff5101adc02416e4fbacf84b12c6c9df2fa5 - Jhiqui Jerde, Tue Sep 25 23:36:04 2018 +0300 : Uploading 2nd part of Day05
+bc11cb7bf847836f95b1787c9fc06e20f1689b30 - Jhiqui Jerde, Mon Sep 24 23:07:33 2018 +0300 : Uploading Day05 first pice...
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/vn/rdt46_v535b45ffy1b7x2p7w0000gq/T/tmplBSyB4/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1625 Sep 26 15:14 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 26 15:14 ex00
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 26 15:14 ex01
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 26 15:14 ex02
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 26 15:14 ex03
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 26 15:14 ex04
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 26 15:14 ex05
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 26 15:14 ex06
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 26 15:14 ex07
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 26 15:14 ex08
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 26 15:14 ex09
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 26 15:14 ex10
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 26 15:14 ex11
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 26 15:14 ex12
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 26 15:14 ex13
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 26 15:14 ex14
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 26 15:14 ex15
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 26 15:14 ex16
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 26 15:14 ex17
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 26 15:14 ex18
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 26 15:14 ex19
+
+/var/folders/vn/rdt46_v535b45ffy1b7x2p7w0000gq/T/tmplBSyB4/user/ex00:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1024 Sep 26 15:14 ft_putstr.c
+
+/var/folders/vn/rdt46_v535b45ffy1b7x2p7w0000gq/T/tmplBSyB4/user/ex01:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1202 Sep 26 15:14 ft_putnbr.c
+
+/var/folders/vn/rdt46_v535b45ffy1b7x2p7w0000gq/T/tmplBSyB4/user/ex02:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1296 Sep 26 15:14 ft_atoi.c
+
+/var/folders/vn/rdt46_v535b45ffy1b7x2p7w0000gq/T/tmplBSyB4/user/ex03:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1044 Sep 26 15:14 ft_strcpy.c
+
+/var/folders/vn/rdt46_v535b45ffy1b7x2p7w0000gq/T/tmplBSyB4/user/ex04:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1100 Sep 26 15:14 ft_strncpy.c
+
+/var/folders/vn/rdt46_v535b45ffy1b7x2p7w0000gq/T/tmplBSyB4/user/ex05:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1197 Sep 26 15:14 ft_strstr.c
+
+/var/folders/vn/rdt46_v535b45ffy1b7x2p7w0000gq/T/tmplBSyB4/user/ex06:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1020 Sep 26 15:14 ft_strcmp.c
+
+/var/folders/vn/rdt46_v535b45ffy1b7x2p7w0000gq/T/tmplBSyB4/user/ex07:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1059 Sep 26 15:14 ft_strncmp.c
+
+/var/folders/vn/rdt46_v535b45ffy1b7x2p7w0000gq/T/tmplBSyB4/user/ex08:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1059 Sep 26 15:14 ft_strupcase.c
+
+/var/folders/vn/rdt46_v535b45ffy1b7x2p7w0000gq/T/tmplBSyB4/user/ex09:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1060 Sep 26 15:14 ft_strlowcase.c
+
+/var/folders/vn/rdt46_v535b45ffy1b7x2p7w0000gq/T/tmplBSyB4/user/ex10:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1221 Sep 26 15:14 ft_strcapitalize.c
+
+/var/folders/vn/rdt46_v535b45ffy1b7x2p7w0000gq/T/tmplBSyB4/user/ex11:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1084 Sep 26 15:14 ft_str_is_alpha.c
+
+/var/folders/vn/rdt46_v535b45ffy1b7x2p7w0000gq/T/tmplBSyB4/user/ex12:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1044 Sep 26 15:14 ft_str_is_numeric.c
+
+/var/folders/vn/rdt46_v535b45ffy1b7x2p7w0000gq/T/tmplBSyB4/user/ex13:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1046 Sep 26 15:14 ft_str_is_lowercase.c
+
+/var/folders/vn/rdt46_v535b45ffy1b7x2p7w0000gq/T/tmplBSyB4/user/ex14:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1046 Sep 26 15:14 ft_str_is_uppercase.c
+
+/var/folders/vn/rdt46_v535b45ffy1b7x2p7w0000gq/T/tmplBSyB4/user/ex15:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1045 Sep 26 15:14 ft_str_is_printable.c
+
+/var/folders/vn/rdt46_v535b45ffy1b7x2p7w0000gq/T/tmplBSyB4/user/ex16:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1082 Sep 26 15:14 ft_strcat.c
+
+/var/folders/vn/rdt46_v535b45ffy1b7x2p7w0000gq/T/tmplBSyB4/user/ex17:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1105 Sep 26 15:14 ft_strncat.c
+
+/var/folders/vn/rdt46_v535b45ffy1b7x2p7w0000gq/T/tmplBSyB4/user/ex18:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1175 Sep 26 15:14 ft_strlcat.c
+
+/var/folders/vn/rdt46_v535b45ffy1b7x2p7w0000gq/T/tmplBSyB4/user/ex19:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1110 Sep 26 15:14 ft_strlcpy.c
+
+= ex00 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_putstr.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror test_ft_putstr.c ft_putchar.c ft_putstr.c -o user_exe
+
+= Test 1 ===================================================
+$> ./1curt924vuk0zondizga1tir
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ex01 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_putnbr.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_putnbr.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./9o22daq49wnw7qezy64towe2
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ex02 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_atoi.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror test_ft_atoi.c ft_putchar.c ft_atoi.c -o user_exe
+
+= Test 1 ===================================================
+$> ./75v6wiobdfzv5m9b1vj50vsu
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ex03 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strcpy.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_putchar.c ft_strcpy.c -o user_exe
+ft_strcpy.c:13:23: error: unused parameter 'dest' [-Werror,-Wunused-parameter]
+char    *ft_strcpy(char *dest, char *src)
+                         ^
+ft_strcpy.c:21:3: error: variable 'res' is uninitialized when used here [-Werror,-Wuninitialized]
+                res[i] = src[i];
+                ^~~
+ft_strcpy.c:16:11: note: initialize the variable 'res' to silence this warning
+        char    *res;
+                    ^
+                     = 0
+2 errors generated.
+
+Could not compile 'user_exe'
+Grade: 0
+
+= ex04 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strncpy.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_putchar.c ft_strncpy.c -o user_exe
+
+= Test 1 ===================================================
+$> ./33frpngoyen47i6yj6ai8teq
+$> diff -U 3 user_output_test1 test1.output | cat -e
+--- user_output_test1	2018-09-26 15:14:57.000000000 +0300$
++++ test1.output	2018-09-26 15:14:57.000000000 +0300$
+@@ -9,6 +9,7 @@$
+ XqzzNymXlpYIWPLQcuTRNQwL$
+ I test a strncpy,$
+  because I like it$
+-$
++I test a strncpy,$
++ because I like it$
+ I test a st$
+ rncpy,$
+
+Diff KO :(
+Grade: 0
+
+= ex05 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strstr.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_strstr.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./zw1upzhpe3is8x2tkzy8pkd3
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex06 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strcmp.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_strcmp.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./57us1lo3kta4k4hpoyd17f3y
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex07 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strncmp.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_strncmp.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./at8gcagx27vkb3uq9li6vhqs
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex08 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strupcase.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_putchar.c ft_strupcase.c -o user_exe
+
+= Test 1 ===================================================
+$> ./jrru0qpt5e1ad32rfd5qnow6
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex09 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strlowcase.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_putchar.c ft_strlowcase.c -o user_exe
+
+= Test 1 ===================================================
+$> ./4xgjm2qem59jvyoskb36prk7
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex10 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strcapitalize.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_strcapitalize.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./bwuvqfevmykks8w8gfuwgmfm
+$> diff -U 3 user_output_test1 test1.output | cat -e
+--- user_output_test1	2018-09-26 15:15:03.000000000 +0300$
++++ test1.output	2018-09-26 15:15:03.000000000 +0300$
+@@ -1,13 +1,13 @@$
+-KbRKVGrTmxwvHKUkukn$
++Kbrkvgrtmxwvhkukukn$
+ Ic$
+-SYrjAmWaBXGjHFpymb$
+-SiMDcLMB$
+-ENUWPMVaMjAvSZksFescHOLbxMUljyvepGrguYbJa$
+-RCrEqHQSQoYkKZbOiRnyk$
+-SFJyIpJCsohMBdwPbKroGF$
+-HDFmsrBTXN$
++Syrjamwabxgjhfpymb$
++Simdclmb$
++Enuwpmvamjavszksfescholbxmuljyvepgrguybja$
++Rcreqhqsqoykkzboirnyk$
++Sfjyipjcsohmbdwpbkrogf$
++Hdfmsrbtxn$
+ M$
+-NULL$
++Null$
+ $
+    $
+-ReKt17+LOl MdR Mdr 4242l42$
++Rekt17+Lol Mdr Mdr 4242l42$
+
+Diff KO :(
+Grade: 0
+
+= ex11 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_str_is_alpha.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_str_is_alpha.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./3009j53b12mwf65yuos0qpi7
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 2
+
+= ex12 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_str_is_numeric.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_putchar.c ft_str_is_numeric.c -o user_exe
+
+= Test 1 ===================================================
+$> ./llhp3ek7r70fbn5lk8fv5m2y
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 2
+
+= ex13 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_str_is_lowercase.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_str_is_lowercase.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./74r16jzlwk7nrkqsclhopfpj
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 2
+
+= ex14 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_str_is_uppercase.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_str_is_uppercase.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./tyizsva2j5bngs72cxl85wn8
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 2
+
+= ex15 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_str_is_printable.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_str_is_printable.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./ybbpx6ms2s5zx69l5fn9a61l
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 2
+
+= ex16 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strcat.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_strcat.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./t7ff9z3wmdiww8l659wufmc7
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex17 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strncat.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_strncat.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./whrxkq61i487im6l4gdrfaw1
+$> diff -U 3 user_output_test1 test1.output | cat -e
+--- user_output_test1	2018-09-26 15:15:11.000000000 +0300$
++++ test1.output	2018-09-26 15:15:11.000000000 +0300$
+@@ -1,12 +1,12 @@$
+-JBCHcwkBsPnCdYVbFkEJbzfRTyGuENt$
++JBCHcwkBsPnCdYVbFkEJbzfRTyGuENtj$
+ jrOfPTnWniLNoIsQLftZ$
+ TItRdgKYpBQaXchFtIQBxf$
+-nEcldgQxgRDFWBWBLLVohuOX$
+-fYBQVFYrOejzoicZmTKSHMQREOBLkzPEfIplV$
+-JImONrwykoKCBpIuIXqZZvvepEbdJBOZyG$
+-uYJtYQrXuGIBuCkVujfSP$
+-eyrAxDSQyoYpfJlwlqGEiLtnnvujzDOxGXncySKceXAYmY$
+-FnCTbgBmlyWsYuIzzliPdBelBrYNgTNrulLhuIKfjEatj$
++nEcldgQxgRDFWBWBLLVohuOXE$
++fYBQVFYrOejzoicZmTKSHMQREOBLkzPEfIplVW$
++JImONrwykoKCBpIuIXqZZvvepEbdJBOZyGC$
++uYJtYQrXuGIBuCkVujfSPV$
++eyrAxDSQyoYpfJlwlqGEiLtnnvujzDOxGXncySKceXAYmYs$
++FnCTbgBmlyWsYuIzzliPdBelBrYNgTNrulLhuIKfjEatjZ$
+ toto$
+-42l$
+-	$
++42l3$
++		$
+
+Diff KO :(
+Grade: 0
+
+= ex18 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strlcat.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_strlcat.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./3m2soeafj7mtzlapi6wo45zl
+Command './3m2soeafj7mtzlapi6wo45zl' got killed by a Segmentation fault (Signal -11)
+Grade: 0
+
+= ex19 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strlcpy.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_strlcpy.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./s9is0rdq6bzr79hvxjiz9vy9
+$> diff -U 3 user_output_test1 test1.output | cat -e
+--- user_output_test1	2018-09-26 15:15:14.000000000 +0300$
++++ test1.output	2018-09-26 15:15:14.000000000 +0300$
+@@ -1 +1 @@$
+-xoTTufxIYpfkK <=> 13GzPbBLxIQUGxNRAcTTaQnSdULrAZazC <=> 31vrFtdJaKFgHsKgGGHhztHbpeyv <=> 26zjiwkdpABFTvEeGdNnQyleFzGLXrhf <=> 38xdsOrWJZCDZo <=> 12AgsNPngjZCdOGkB <=> 15SxVlzcguzMZtABRWnUdkGB <=> 22IQXVgr <=> 32WeLOogRLjlAzGXrKjWrNbevpve <=> 40GigTUsYN <=> 30pYGuN <=> 5HeUGUtekxLjazZkkzXfNsikBZHzxvO <=> 30XklabrliJse <=> 11uDCrBcecHWDCGSHJRpIdusLp <=> 26gJ <=> 38qFlYasGdfsBUMZ <=> 34GKPtSv <=> 6WyaRoOPKHZNflcXpGQGrhlSUqcRmaEXCcmax <=> 36XFvg <=> 31Udmw <=> 28GUlfbEhCw <=> 18QhlcpCDdXD <=> 32EeicBzyvHtKjFlokObPrDQUssv <=> 26OlLyddfzceIMTHA <=> 15UIfvRZrBQbLFmnILYsTzUqiMgne <=> 27dFnEhgghNSsEbEgQRfzmSFdljKC <=> 27hXXLEHEBur <=> 40LwWGfjSKBhfxlBjbcWUHvPRuYsNRkh <=> 40vZvGcgGtBlvgfpWShIojVXLBlqRBZqC <=> 36SriYdUFl <=> 24SnJRt <=> 5xYddQHBGAwmXWxEKvuSOoNMpLT <=> 26mf <=> 34ZXJd <=> 4RWRfldfltAgQLTsNibm <=> 19KIBwLdUbJhRpMzRFCxEsT <=> 28XXLAkmfAtvFM <=> 27THcDCCYJpICjtccSpcECIXsrWRnD <=> 28ipJRGrMQVcUeLafIKmtZjFfyjMrIe <=> 35OOLduorPz <=> 28WGdzSAlku <=> 30TeYHJPRfyKArWwFrxTwfm <=> 21csug
+ SfDCaY <=> 17NQIPAH <=> 6Tq <=> 5hVQlpklYjgaQyj <=> 24SbGdDbzX <=> 11ybqONu <=> 6WSeDTF <=> 6oJzaEGnhLCxBcNtzBuUCQaSCO <=> 25wXJU <=> 4JToxY <=> 5AfYSEzXutyDbql <=> 14HwKjAoZXPZKWxkyJAsxdpsGkG <=> 25YLgbMkThV <=> 9zeOBCaggzYjHTNq <=> 15CdZKduBcOgWmaShEGM <=> 18PKfIWpJowksonaooddNhSDwR <=> 28ZfNhHriDsqAEPfsqQjPRPIYmDYbeGPSViWKYNCE <=> 39PYnYi <=> 5CTCKiEGubNAFLcqqbBDBLtGqwY <=> 26sMBooecHrhXKV <=> 13yzOzcxIyKtJdALlQqygJRGDg <=> 24e <=> 23MFAJsGgJNYe <=> 33bHrgusl <=> 30tIhbAMSIosNDDQFvRXnGMtXQOKXA <=> 33WMUNnV <=> 31AZ <=> 2rnytMigEaqISbcaXmmbflr <=> 22muSuJfiQFEbJUbAMffANp <=> 21FtWWOmMmZnL <=> 11dEQwYn <=> 6jtVnWVheoUZ <=> 11yHgwVzuxFwOBdsVZI <=> 17DHmxITvNnniRthwoJqhSG <=> 33ATSbkqBemxqcKaDccND <=> 24xWMR <=> 4Us <=> 2lpFfeEHjDbIURgOnCoVw <=> 36nMIsKQiSkqapdQFBSobIAMhB <=> 24BonhnvVBoWxWiPVN <=> 35txixTEd <=> 17ZcXUzOnTgNCYwabuRbNYbOdVaHkLnpRJkLNLb <=> 40qxwuxayeyugcZgpKdFcNTcLNa <=> 25HBcGvIqyHfDHbbf <=> 15cnPhUwNTxYJKibYXdunNYJ <=> 22OKybGrlsGnxGnADqbYcADODs <=> 24kCCIMHgaiiIGUG
+ RbXULaUEZQaGzXthzRxh <=> 40tjtDHIIqykQqCtZduTpuzgSTgKmCf <=> 29HGf <=> 34C <=> 1YEFzOktSfPEVhsQZdymMumFSOHcvUqFudJANtwFd <=> 40oEeSiqdqw <=> 12cIXaMpKEn <=> 29pFax <=> 4krWScowSUSVHZHswaCxGYsAhX <=> 25XDuMNRuLHqNhdgVpLJZRtsan <=> 24PwsvyMCuWKLImpI <=> 15$
+\ No newline at end of file$
++xoTTufxIYpfk <=> 31GzPbBLxIQUGxNRAcTTaQnSdULrAZaz <=> 34vrFtdJaKFgHsKgGGHhztHbpey <=> 42zjiwkdpABFTvEeGdNnQyleFzGLXrhf <=> 30xdsOrWJZCDZ <=> 32AgsNPngjZCdOGk <=> 21SxVlzcguzMZtABRWnUdkG <=> 30IQXVgr <=> 6WeLOogRLjlAzGXrKjWrNbevpve <=> 26GigTUsYN <=> 8pYGu <=> 35HeUGUtekxLjazZkkzXfNsikBZHzxv <=> 41XklabrliJs <=> 42uDCrBcecHWDCGSHJRpIdusLp <=> 24gJ <=> 2qFlYasGdfsBUMZ <=> 14GKPtS <=> 27WyaRoOPKHZNflcXpGQGrhlSUqcRmaEXCcma <=> 37XFvg <=> 4Udmw <=> 4GUlfbEhCw <=> 9QhlcpCDdXD <=> 10EeicBzyvHtKjFlokObPrDQUss <=> 32OlLyddfzceIMTH <=> 19UIfvRZrBQbLFmnILYsTzUqiMgn <=> 32dFnEhgghNSsEbEgQRfzmSFdljK <=> 39hXXLEHEBur <=> 10LwWGfjSKBhfxlBjbcWUHvPRuYsNRkh <=> 30vZvGcgGtBlvgfpWShIojVXLBlqRBZqC <=> 31SriYdUFl <=> 8SnJR <=> 11xYddQHBGAwmXWxEKvuSOoNMpL <=> 29mf <=> 2ZXJ <=> 40RWRfldfltAgQLTsNib <=> 26KIBwLdUbJhRpMzRFCxEsT <=> 21XXLAkmfAtvFM <=> 12THcDCCYJpICjtccSpcECIXsrWRn <=> 33ipJRGrMQVcUeLafIKmtZjFfyjMrIe <=> 29OOLduorPz <=> 9WGdzSAlku <=> 9TeYHJPRfyKArWwFrxTwf <=> 41csugSfDCaY <=> 10NQIPA <=> 9Tq
+ <=> 2hVQlpklYjgaQyj <=> 14SbGdDbzX <=> 8ybqON <=> 15WSeDT <=> 13oJzaEGnhLCxBcNtzBuUCQaSC <=> 32wXJ <=> 16JTox <=> 13AfYSEzXutyDbq <=> 24HwKjAoZXPZKWxkyJAsxdpsGk <=> 26YLgbMkTh <=> 36zeOBCaggzYjHTN <=> 22CdZKduBcOgWmaShEG <=> 34PKfIWpJowksonaooddNhSDwR <=> 24ZfNhHriDsqAEPfsqQjPRPIYmDYbeGPSViWKYNC <=> 42PYnY <=> 28CTCKiEGubNAFLcqqbBDBLtGqw <=> 35sMBooecHrhXK <=> 14yzOzcxIyKtJdALlQqygJRGD <=> 27e <=> 1MFAJsGgJNYe <=> 11bHrgusl <=> 7tIhbAMSIosNDDQFvRXnGMtXQOKXA <=> 28WMUNnV <=> 6A <=> 10rnytMigEaqISbcaXmmbfl <=> 41muSuJfiQFEbJUbAMffAN <=> 34FtWWOmMmZn <=> 14dEQwY <=> 41jtVnWVheoU <=> 40yHgwVzuxFwOBdsVZ <=> 17DHmxITvNnniRthwoJqhSG <=> 21ATSbkqBemxqcKaDccND <=> 19xWM <=> 41U <=> 22lpFfeEHjDbIURgOnCoVw <=> 20nMIsKQiSkqapdQFBSobIAMh <=> 36BonhnvVBoWxWiPVN <=> 16txixTEd <=> 7ZcXUzOnTgNCYwabuRbNYbOdVaHkLnpRJkLNLb <=> 37qxwuxayeyugcZgpKdFcNTcLN <=> 38HBcGvIqyHfDHbb <=> 18cnPhUwNTxYJKibYXdunNY <=> 24OKybGrlsGnxGnADqbYcADOD <=> 40kCCIMHgaiiIGUGRbXULaUEZQaGzXthzRxh <=> 34tjtDHIIqykQqCtZduTpuzgSTg
+ KmC <=> 39HGf <=> 3 <=> 19YEFzOktSfPEVhsQZdymMumFSOHcvUqFudJANtwF <=> 41oEeSiqdqw <=> 9cIXaMpKEn <=> 9pFa <=> 4krWScowSUSVHZHswaCxGYsAh <=> 40XDuMNRuLHqNhdgVpLJZRtsa <=> 24PwsvyMCuWKLImp <=> 15$
+\ No newline at end of file$
+
+Diff KO :(
+Grade: 0
+
+= ex20 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex21 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex22 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex23 =========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 3 ===============================================================
+
+END

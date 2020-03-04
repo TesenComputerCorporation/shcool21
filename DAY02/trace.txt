@@ -1,0 +1,186 @@
+Subject: [Deepthought] Your trace for Day 02
+From: deepthought-no-reply@21-school.ru
+To: jjerde@student.21-school.ru
+Date: Fri, 21 Sep 2018 20:45:04 +0300
+
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e2r11p4.21-school.ru
+Darwin 16.7.0 x86_64
+$> date
+Fri Sep 21 20:44:54 MSK 2018
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2018/activities/piscine_c_day_02/jjerde
+
+= Git history ==================================================================
+$> git -C /var/folders/p1/7_xbt4fx145b_k8sl53z8t140000gq/T/tmpweisPe/user log --pretty='%H - %an, %ad : %s'
+cf53b2408aa4aba2817ace6497381258abae7cd2 - Jhiqui Jerde, Thu Sep 20 21:49:41 2018 +0300 : Veryfing x2
+a5de0fcb6a576708e59b136a9e81474dddc919cd - Jhiqui Jerde, Thu Sep 20 21:21:07 2018 +0300 : added_files_for_day2
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/p1/7_xbt4fx145b_k8sl53z8t140000gq/T/tmpweisPe/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1051 Sep 21 20:44 __GIT_HISTORY
+drwxr-xr-x  4 deepthought  deepthought   136 Sep 21 20:44 ex00
+drwxr-xr-x  4 deepthought  deepthought   136 Sep 21 20:44 ex01
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 21 20:44 ex02
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 21 20:44 ex03
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 21 20:44 ex04
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 21 20:44 ex05
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 21 20:44 ex06
+
+/var/folders/p1/7_xbt4fx145b_k8sl53z8t140000gq/T/tmpweisPe/user/ex00:
+total 24
+-rw-r--r--  1 deepthought  deepthought  6148 Sep 21 20:44 .DS_Store
+-rw-r--r--  1 deepthought  deepthought  1035 Sep 21 20:44 ft_print_alphabet.c
+
+/var/folders/p1/7_xbt4fx145b_k8sl53z8t140000gq/T/tmpweisPe/user/ex01:
+total 24
+-rw-r--r--  1 deepthought  deepthought  6148 Sep 21 20:44 .DS_Store
+-rw-r--r--  1 deepthought  deepthought  1043 Sep 21 20:44 ft_print_reverse_alphabet.c
+
+/var/folders/p1/7_xbt4fx145b_k8sl53z8t140000gq/T/tmpweisPe/user/ex02:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1034 Sep 21 20:44 ft_print_numbers.c
+
+/var/folders/p1/7_xbt4fx145b_k8sl53z8t140000gq/T/tmpweisPe/user/ex03:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1096 Sep 21 20:44 ft_is_negative.c
+
+/var/folders/p1/7_xbt4fx145b_k8sl53z8t140000gq/T/tmpweisPe/user/ex04:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1312 Sep 21 20:44 ft_print_comb.c
+
+/var/folders/p1/7_xbt4fx145b_k8sl53z8t140000gq/T/tmpweisPe/user/ex05:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1231 Sep 21 20:44 ft_print_comb2.c
+
+/var/folders/p1/7_xbt4fx145b_k8sl53z8t140000gq/T/tmpweisPe/user/ex06:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1216 Sep 21 20:44 ft_putnbr.c
+
+= ex00 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_print_alphabet.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror test_ft_print_alphabet.c ft_putchar.c ft_print_alphabet.c -o user_exe
+ft_print_alphabet.c:22:3: error: implicit declaration of function 'ft_putchar' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
+                ft_putchar(i);
+                ^
+1 error generated.
+
+Could not compile 'user_exe'
+Grade: 0
+
+= ex01 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_print_reverse_alphabet.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror test_ft_print_reverse_alphabet.c ft_putchar.c ft_print_reverse_alphabet.c -o user_exe
+ft_print_reverse_alphabet.c:22:3: error: implicit declaration of function 'ft_putchar' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
+                ft_putchar(i);
+                ^
+1 error generated.
+
+Could not compile 'user_exe'
+Grade: 0
+
+= ex02 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_print_numbers.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror test_ft_print_numbers.c ft_putchar.c ft_print_numbers.c -o user_exe
+ft_print_numbers.c:22:3: error: implicit declaration of function 'ft_putchar' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
+                ft_putchar(i);
+                ^
+1 error generated.
+
+Could not compile 'user_exe'
+Grade: 0
+
+= ex03 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_is_negative.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_is_negative.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./7ar5h7m1f1j31pxd82umm8cx
+$> diff -U 3 user_output_test1 test1.output | cat -e
+--- user_output_test1	2018-09-21 20:44:58.000000000 +0300$
++++ test1.output	2018-09-21 20:44:58.000000000 +0300$
+@@ -1,12 +1 @@$
+-P$
+-N$
+-P$
+-N$
+-N$
+-P$
+-P$
+-P$
+-P$
+-P$
+-N$
+-N$
++PNPNNPPPPPNN$
+\ No newline at end of file$
+
+Diff KO :(
+Grade: 0
+
+= ex04 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_print_comb.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror test_ft_print_comb.c ft_print_comb.c ft_putchar.c -o user_exe
+ft_print_comb.c:17:2: error: implicit declaration of function 'ft_putchar' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
+        ft_putchar(a);
+        ^
+1 error generated.
+
+Could not compile 'user_exe'
+Grade: 0
+
+= ex05 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_print_comb2.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror test_ft_print_comb2.c ft_print_comb2.c ft_putchar.c -o user_exe
+ft_print_comb2.c:26:4: error: implicit declaration of function 'ft_putchar' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
+                        ft_putchar(n / 10 + '0');
+                        ^
+1 error generated.
+
+Could not compile 'user_exe'
+Grade: 0
+
+= ex06 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_putnbr.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_putnbr.c ft_putchar.c -o user_exe
+ft_putnbr.c:19:3: error: implicit declaration of function 'ft_putchar' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
+                ft_putchar('-');
+                ^
+ft_putnbr.c:19:3: note: did you mean 'ft_putnbr'?
+ft_putnbr.c:15:6: note: 'ft_putnbr' declared here
+void    ft_putnbr(int nb)
+        ^
+1 error generated.
+
+Could not compile 'user_exe'
+Grade: 0
+
+= ex07 =========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 0 ===============================================================
+
+END

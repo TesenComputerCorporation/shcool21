@@ -1,0 +1,2262 @@
+Subject: [Deepthought] Your trace for Day 09
+From: deepthought-no-reply@21-school.ru
+To: jjerde@student.21-school.ru
+Date: Sat, 29 Sep 2018 17:19:45 +0300
+
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1r6p3.21-school.ru
+Darwin 16.7.0 x86_64
+$> date
+Sat Sep 29 17:19:08 MSK 2018
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2018/activities/piscine_c_day_09/jjerde
+
+= Git history ==================================================================
+$> git -C /var/folders/ht/jxy0b1md4xs73d16v6xxp1j80000gq/T/tmpT49SzT/user log --pretty='%H - %an, %ad : %s'
+4c753f77882f8c83ccb398db25d52c5c3cb67667 - Jhiqui Jerde, Fri Sep 28 16:07:28 2018 +0300 : Lol kek 09 day omg
+5082ce1ff48f23bbb7f4a0e278f3f7540b7d5929 - Jhiqui Jerde, Fri Sep 28 04:39:21 2018 +0300 : asffasdfsdfdsaf
+c0692f80846e60d26c77c23c218ba58a5c14a9b5 - Jhiqui Jerde, Fri Sep 28 03:13:18 2018 +0300 : ffsdafsfrtewgbrnhyrhrtghrth
+e6299d46dc8a7b9875e79f120eb19fbcd6531530 - Jhiqui Jerde, Fri Sep 28 01:38:09 2018 +0300 : fffffffffffffffffuuuuuuuuuuuufff
+53205022ea53017d19c52231b0b3a8ef400f94bd - Jhiqui Jerde, Fri Sep 28 01:22:30 2018 +0300 : fffffffffffffffffuuuuuuuuuuuufff
+116630e6cfa664b98b2a2d2469aa43bcf964539d - Jhiqui Jerde, Fri Sep 28 00:14:41 2018 +0300 : fffffffffffffffffuuuuuuuuuuuu
+238bf2356e1cb3fb68c86fcce0cbeca9d5ac4b30 - Jhiqui Jerde, Thu Sep 27 22:57:40 2018 +0300 : rfergferfeferfeefefefefefefefe
+507dbb625e9097e6ece4c5d8c399e4fed784a9d8 - Jhiqui Jerde, Thu Sep 27 21:38:17 2018 +0300 : fsngudfhgehgwrihgwrfdfdfdfdfdfdf
+c320676177dcb0191085c43842693b24a7cdeb7e - Jhiqui Jerde, Thu Sep 27 21:21:31 2018 +0300 : fsngudfhgehgwrihgwr
+e9942b5404d116bedd2b51438ca2bc1958f8ba59 - Jhiqui Jerde, Thu Sep 27 20:20:12 2018 +0300 : Heaaaaaaaaaaaaaaaaaaaaaaaaaaaar
+2a9c70a0c9f9252d802ec8c263ed68490bcd09f7 - Jhiqui Jerde, Thu Sep 27 19:48:51 2018 +0300 : frefeergegregegeg
+0cab46a96e57762d7d4a279dc681abd1146a523e - Jhiqui Jerde, Thu Sep 27 18:21:03 2018 +0300 : asdfagewrberg
+24e139e20cc51a3f5c6413c2250c02759e4b37e6 - Jhiqui Jerde, Thu Sep 27 16:45:05 2018 +0300 : 1st hour of Day09git status
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/ht/jxy0b1md4xs73d16v6xxp1j80000gq/T/tmpT49SzT/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  3558 Sep 29 17:19 __GIT_HISTORY
+drwxr-xr-x  4 deepthought  deepthought   136 Sep 29 17:19 ex00
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 29 17:19 ex01
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 29 17:19 ex02
+drwxr-xr-x  4 deepthought  deepthought   136 Sep 29 17:19 ex03
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 29 17:19 ex04
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 29 17:19 ex05
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 29 17:19 ex06
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 29 17:19 ex07
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 29 17:19 ex08
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 29 17:19 ex09
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 29 17:19 ex10
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 29 17:19 ex11
+drwxr-xr-x  5 deepthought  deepthought   170 Sep 29 17:19 ex12
+drwxr-xr-x  3 deepthought  deepthought   102 Sep 29 17:19 ex13
+
+/var/folders/ht/jxy0b1md4xs73d16v6xxp1j80000gq/T/tmpT49SzT/user/ex00:
+total 24
+-rw-r--r--  1 deepthought  deepthought  6148 Sep 29 17:19 .DS_Store
+-rw-r--r--  1 deepthought  deepthought   977 Sep 29 17:19 ft_generic.c
+
+/var/folders/ht/jxy0b1md4xs73d16v6xxp1j80000gq/T/tmpT49SzT/user/ex01:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1665 Sep 29 17:19 ft_takes_place.c
+
+/var/folders/ht/jxy0b1md4xs73d16v6xxp1j80000gq/T/tmpT49SzT/user/ex02:
+total 8
+-rw-r--r--  1 deepthought  deepthought  160 Sep 29 17:19 find_nicolas_bauer.sh
+
+/var/folders/ht/jxy0b1md4xs73d16v6xxp1j80000gq/T/tmpT49SzT/user/ex03:
+total 24
+-rw-r--r--  1 deepthought  deepthought  6148 Sep 29 17:19 .DS_Store
+-rw-r--r--  1 deepthought  deepthought    57 Sep 29 17:19 defuse.sh
+
+/var/folders/ht/jxy0b1md4xs73d16v6xxp1j80000gq/T/tmpT49SzT/user/ex04:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1222 Sep 29 17:19 ft_rot42.c
+
+/var/folders/ht/jxy0b1md4xs73d16v6xxp1j80000gq/T/tmpT49SzT/user/ex05:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1117 Sep 29 17:19 ft_antidote.c
+
+/var/folders/ht/jxy0b1md4xs73d16v6xxp1j80000gq/T/tmpT49SzT/user/ex06:
+total 8
+-rw-r--r--  1 deepthought  deepthought  992 Sep 29 17:19 ft_destroy.c
+
+/var/folders/ht/jxy0b1md4xs73d16v6xxp1j80000gq/T/tmpT49SzT/user/ex07:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1090 Sep 29 17:19 ft_collatz_conjecture.c
+
+/var/folders/ht/jxy0b1md4xs73d16v6xxp1j80000gq/T/tmpT49SzT/user/ex08:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1664 Sep 29 17:19 ft_spy.c
+
+/var/folders/ht/jxy0b1md4xs73d16v6xxp1j80000gq/T/tmpT49SzT/user/ex09:
+total 8
+-rw-r--r--  1 deepthought  deepthought  142 Sep 29 17:19 where_am_i.sh
+
+/var/folders/ht/jxy0b1md4xs73d16v6xxp1j80000gq/T/tmpT49SzT/user/ex10:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1077 Sep 29 17:19 ft_scrambler.c
+
+/var/folders/ht/jxy0b1md4xs73d16v6xxp1j80000gq/T/tmpT49SzT/user/ex11:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1069 Sep 29 17:19 ft_perso.h
+
+/var/folders/ht/jxy0b1md4xs73d16v6xxp1j80000gq/T/tmpT49SzT/user/ex12:
+total 32
+-rw-r--r--  1 deepthought  deepthought  6148 Sep 29 17:19 .DS_Store
+-rw-r--r--  1 deepthought  deepthought  1500 Sep 29 17:19 ft_door.c
+-rw-r--r--  1 deepthought  deepthought  1264 Sep 29 17:19 ft_door.h
+
+/var/folders/ht/jxy0b1md4xs73d16v6xxp1j80000gq/T/tmpT49SzT/user/ex13:
+total 8
+-rw-r--r--  1 deepthought  deepthought  891 Sep 29 17:19 ft_compact.c
+
+= ex00 =========================================================================
+$> /usr/bin/norminette  ft_generic.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_generic.c test_ft_generic.c -o user_exe
+
+= Test 1 ===================================================
+$> ./kbrmff8nv6ysrsids4j1qd0m
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 3
+
+= ex01 =========================================================================
+$> /usr/bin/norminette  ft_takes_place.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror test_ft_takes_place.c ft_takes_place.c -o user_exe
+
+= Test 1 ===================================================
+$> ./77y9u6mi3mm81c8ab3i7a3qz
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 3
+
+= ex02 =========================================================================
+$> diff -U 3 user_output ref_output | cat -e
+--- user_output	2018-09-29 17:19:12.000000000 +0300$
++++ ref_output	2018-09-29 17:19:12.000000000 +0300$
+@@ -1,2 +1,3 @@$
+-(947)834-5402$
++192.168.0.42$
+ 583-686-42$
++(947)834-5402$
+
+Diff KO :(
+Grade: 0
+
+= ex03 =========================================================================
+$> diff -U 3 user_output ref_output | cat -e
+
+Diff OK :D
+Grade: 3
+
+= ex04 =========================================================================
+$> /usr/bin/norminette  ft_rot42.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_rot42.c main.c -o user_exe
+
+= Test 1 ===================================================
+$> ./rh7kunox6v1kw7pj3hwjibjh
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./1l16iln0vnw31gwoddgmdtsj "sJ0jfM3peU6g1"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./0veffq1ww6t1c6q5gp39eli2 "CvwDGBqloe3NdxbK"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./g5x3t79epcpu0ubtm0ct0yss "0bXmDcEJ GSx3J 9fpzMr IoiApCng R1lN6v QM"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./3xnezmcv8dbd13w63c9cg0jn "d Mw60TzLqO G M 45vMBKl83 Dn UOt AeEHIrUGZ"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./3mhbo58rz7i6ft3acvkb69x7 "ojEyMmtx" "rb3w4mANg" "6ga" "Awqv" "eL3" "MgGej1zm" "Pv" "F" "zECW" "Pw8c" "n1OxS4Hf2" "B0oWl1Z4w8P" "2wIe6bfM"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./wubsjlpa9t88r46s11p6kvt6 "PvXtFT" "5bBlaVmdHFKW" "n" "ZL" "3YE7igkDz" "woq1M7S" "Gl" "DPpi2U45Z1g" "c4ZYQ" "eldB" "lkaJRyT" "qrG9feza6hX"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./m233gicgqk7ho1b4cq9k2rdv "Z6agGU zRWFVXedLI3 wT6AfNJ s3v8iIKJClw" "6Hqx2Sy1zcdX GmrOZbd" "QI72nO 9WcBz5fir" "E Ry0Caht6Yl GSmbHM" "qgr2FE71Hcn" "g4npf neK ZYuj591T fM65oXBO" "o0YZxsTb W4" "QoADgnMx1 g 1gRlkD8w msLcJbGKFjR" "I031XacN laoir0MIVWhK" "CacAo VlPbfiKmS enuAsfmPNb" "PA CwZK4BsG jeWF0UAw 4H7VUgfQaRN" "eHIAO4oy sO8V qODTwp2A3LX R4FfhW8Pq2" "WfeFdkp4v0uB YD0gmLVfTXUd"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./hbavr073h4gly67ldyk4wjxr "rf 4ZmjV" "4bnypA8R YsQ CjnevK1" "nhZ4Cxc q" "6" "kis ZAr6CG BJoOPG Rgp" "tyTm0B2" "kc p" "VQZ4 5dO" "Mghwp 0xZ Rd 91iXjBVK" "QYVpG4iz EKj 7dt jCZ7P" "swDIp2 k3bhID Dmeig3CL2h" "uowmPQ" "6 JbDgyIMs"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+Grade: 3
+
+= ex05 =========================================================================
+$> /usr/bin/norminette  ft_antidote.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_antidote.c main.c -o user_exe
+
+= Test 1 ===================================================
+$> ./sls9963hdq7vzz9wv4dfkhw1 "0" "0" "0"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./dr9bdj5d6ai7uaucuvr5c1b0 "-689262742" "-31348555" "478916540"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./j35apn7n79j3hiwzvtih1hth "-991670215" "2135252002" "2107936022"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./6f6e2wzdfh227ytobwacluja "-786468672" "-1550434783" "-594786625"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./2iwcfugh3xryuv388gxgq96p "-1042582713" "1921908811" "1240957412"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./bv24ldfz257a7tqmhtsh7307 "993425078" "1886654277" "325329269"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./5em41ukqcwe00nru44xgo0ve "3423365" "688848048" "1716612859"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./hshxzvoven5i6dsl0nblyp9p "-1084306524" "-520256448" "-312915096"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./j3vhww4tyj4349bp1kk8t7m8 "-135150432" "-1202651084" "-1992961955"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+Grade: 3
+
+= ex06 =========================================================================
+$> /usr/bin/norminette  ft_destroy.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror test_ft_destroy.c ft_destroy.c -o user_exe
+
+= Test 1 ===================================================
+$> ./mq42kcqe9o6yc9dtstgb3pnx
+$> diff -U 3 user_output_test1 test1.output | cat -e
+--- user_output_test1	2018-09-29 17:19:18.000000000 +0300$
++++ test1.output	2018-09-29 17:19:18.000000000 +0300$
+@@ -1 +1,1807 @@$
+ FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
++FREE$
+
+Diff KO :(
+Grade: 0
+
+= ex07 =========================================================================
+$> /usr/bin/norminette  ft_collatz_conjecture.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_collatz_conjecture.c main.c -o user_exe
+
+= Test 1 ===================================================
+$> ./qj46x45vt0xxxqouawdfsqv0 "581"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./7gi2nyllgc26l5uz4pk5sdts "262"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./n0r5qgr13olm0mupttc8bi4i "167"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./bp9mpqdbxrzu1cy9d3t0uiv6 "562"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./mk7fga3130khoafa2z8h404r "668"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./nmb4cnc31xfnrarbczl2do75 "16"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./v0zr5fubrcetnw1b1a03ed5s "282"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./2vd0hpv0vb17als6q4vw5fx7 "265"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./3212v25yndtciarlo6so86hl "527"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+Grade: 3
+
+= ex08 =========================================================================
+$> /usr/bin/norminette  ft_spy.c | grep -E '^(Error|Warning)'
+Error (line 44): declarations must be followed by one empty line in main
+
+Norme check FAILED
+Grade: 0
+
+= ex09 =========================================================================
+$> diff -U 3 user_output ref_output | cat -e
+
+Diff OK :D
+Grade: 3
+
+= ex10 =========================================================================
+$> /usr/bin/norminette  ft_scrambler.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_scrambler.c -o user_exe
+
+= Test 1 ===================================================
+$> ./eshen6d543b9ksocc288i7ei "-244303156" "1191815251" "-439430283" "-321358240"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./4xubawvbgzks5vhyt9484v35 "-1460135113" "1835078062" "-588302459" "-1025522600"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./rjfv9691t4iljhu1mkkfo8gl "460583447" "-1553543982" "-1077917361" "-343134990"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./28d0sd5qu68lc6y3mkixgpwp "1437895430" "1129335742" "-1353447870" "149155584"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./13ppdb9fir3t7wjho1c9gvpn "729606926" "-1724549009" "-700554257" "1873542234"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+Grade: 4
+
+= ex11 =========================================================================
+$> /usr/bin/norminette  ft_perso.h | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_perso.c -o user_exe
+ft_perso.c:12:20: error: use of undeclared identifier 'SAVE_THE_WORLD'
+        jack.profession = SAVE_THE_WORLD;
+                          ^
+1 error generated.
+
+Could not compile 'user_exe'
+Grade: 0
+
+= ex12 =========================================================================
+$> /usr/bin/norminette  ft_door.c ft_door.h | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_door.c main.c -o user_exe
+
+= Test 1 ===================================================
+$> ./sxbs8agb61xfojqonitq9b2l "11"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 4
+
+= ex13 =========================================================================
+$> /usr/bin/norminette  ft_compact.c | grep -E '^(Error|Warning)'
+Error: 42 header must be followed by one empty line
+
+Norme check FAILED
+Grade: 0
+
+= ex14 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex15 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex16 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex17 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex18 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex19 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex20 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex21 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex22 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex23 =========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 29 ==============================================================
+
+END

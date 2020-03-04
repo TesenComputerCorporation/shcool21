@@ -1,0 +1,293 @@
+Subject: [Deepthought] Your trace for Day 10
+From: deepthought-no-reply@21-school.ru
+To: jjerde@student.21-school.ru
+Date: Fri, 05 Oct 2018 15:38:16 +0300
+
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e2r2p2.21-school.ru
+Darwin 16.7.0 x86_64
+$> date
+Fri Oct  5 15:33:45 MSK 2018
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2018/activities/piscine_c_day_10/jjerde
+
+= Git history ==================================================================
+$> git -C /var/folders/g5/_vvrvkfs7l38tqzhjcl0zgl40000gq/T/tmpidNyQZ/user log --pretty='%H - %an, %ad : %s'
+822b0e70fbe8946d5a430523f16e90b0979f185f - Jhiqui Jerde, Tue Oct 2 18:35:18 2018 +0300 : Hello world! (help us)
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/g5/_vvrvkfs7l38tqzhjcl0zgl40000gq/T/tmpidNyQZ/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  757 Oct  5 15:33 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Oct  5 15:33 ex00
+drwxr-xr-x  3 deepthought  deepthought  102 Oct  5 15:33 ex01
+drwxr-xr-x  3 deepthought  deepthought  102 Oct  5 15:33 ex02
+drwxr-xr-x  3 deepthought  deepthought  102 Oct  5 15:33 ex03
+drwxr-xr-x  3 deepthought  deepthought  102 Oct  5 15:33 ex04
+drwxr-xr-x  3 deepthought  deepthought  102 Oct  5 15:33 ex05
+drwxr-xr-x  8 deepthought  deepthought  272 Oct  5 15:33 ex06
+
+/var/folders/g5/_vvrvkfs7l38tqzhjcl0zgl40000gq/T/tmpidNyQZ/user/ex00:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1337 Oct  5 15:33 Makefile
+
+/var/folders/g5/_vvrvkfs7l38tqzhjcl0zgl40000gq/T/tmpidNyQZ/user/ex01:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1013 Oct  5 15:33 ft_foreach.c
+
+/var/folders/g5/_vvrvkfs7l38tqzhjcl0zgl40000gq/T/tmpidNyQZ/user/ex02:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1109 Oct  5 15:33 ft_map.c
+
+/var/folders/g5/_vvrvkfs7l38tqzhjcl0zgl40000gq/T/tmpidNyQZ/user/ex03:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1067 Oct  5 15:33 ft_any.c
+
+/var/folders/g5/_vvrvkfs7l38tqzhjcl0zgl40000gq/T/tmpidNyQZ/user/ex04:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1055 Oct  5 15:33 ft_count_if.c
+
+/var/folders/g5/_vvrvkfs7l38tqzhjcl0zgl40000gq/T/tmpidNyQZ/user/ex05:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1076 Oct  5 15:33 ft_is_sort.c
+
+/var/folders/g5/_vvrvkfs7l38tqzhjcl0zgl40000gq/T/tmpidNyQZ/user/ex06:
+total 48
+-rw-r--r--  1 deepthought  deepthought  1174 Oct  5 15:33 Makefile
+-rw-r--r--  1 deepthought  deepthought   959 Oct  5 15:33 ft_putchar.c
+-rw-r--r--  1 deepthought  deepthought  1154 Oct  5 15:33 ft_putnbr.c
+-rw-r--r--  1 deepthought  deepthought  1024 Oct  5 15:33 ft_putstr.c
+-rw-r--r--  1 deepthought  deepthought  1033 Oct  5 15:33 header.h
+-rw-r--r--  1 deepthought  deepthought  2060 Oct  5 15:33 main.c
+
+= ex00 =========================================================================
+total 8
+-rw-r--r--  1 deepthought  deepthought  1337 Oct  5 15:33 Makefile
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  8 18:18 includes
+drwxr-xr-x  7 deepthought  deepthought   238 Aug  8 18:18 srcs
+/bin/rm -f ft_putchar.o ft_putstr.o ft_strcmp.o ft_strlen.o ft_swap.o
+gcc -Wall -Wextra -Werror -c -I./includes/ ./src/ft_putchar.c \
+	./src/ft_putstr.c ./src/ft_strcmp.c ./src/ft_strlen.c \
+	./src/ft_swap.c
+clang: error: no such file or directory: './src/ft_putchar.c'
+clang: error: no such file or directory: './src/ft_putstr.c'
+clang: error: no such file or directory: './src/ft_strcmp.c'
+clang: error: no such file or directory: './src/ft_strlen.c'
+clang: error: no such file or directory: './src/ft_swap.c'
+clang: error: no input files
+make: *** [libft.a] Error 1
+
+Grade: 0
+
+= ex01 =========================================================================
+$> /usr/bin/norminette  ft_foreach.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_foreach.c -o user_exe
+
+= Test 1 ===================================================
+$> ./16sr8niswpul4snxcpejvq1i "-120290" "71253" "103108" "-369129" "315625" "-408349" "-354154" "-421578" "73293" "262388" "-3345" "-408581" "219689" "-104943" "-167666" "-222701" "152090"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./b2pl61igjoc83dxqx5v2oxdw "408685" "165005" "-287801"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./a98qtlkvwvywczdxdz1h3a7z "370018" "47215" "135279" "-78738"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./s4579wzurhrkky4lnsuioami "-240027" "203413" "-353083" "-29444" "14249" "-249005"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./9bv32a1adopmnmmljhtj5s38 "-308249" "-316597" "376407" "281132" "377034" "-239390" "-402325" "-312519" "302002" "-203094" "407114" "178100"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./2sl62cn9j2kwhazwu6xcss1d "389686" "357077" "239284" "-361794" "-104948" "142767" "1098" "-144829" "351727" "-351439" "228014"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./e398aa0gt9ql5hnvdb14uttb "99565" "-282695" "-346516" "-369113" "-23226" "-300763" "350239" "295116" "135957" "-248866" "-387840"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./ylr0qsr37ucxt30sdg1ln683 "358165" "31386" "125313" "-284752" "-250892" "-93232" "155890" "-285647" "171421" "217189" "-163111" "284099" "240175" "317832" "63215" "53608" "307035"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex02 =========================================================================
+$> /usr/bin/norminette  ft_map.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_map.c main.c -o user_exe
+
+= Test 1 ===================================================
+$> ./cep7kwzfphrkl6tzeodvytoa "-330738" "136797" "-164424" "-96403"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./ox6k39c58rx5c6m420djr6ay "-65163"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./xeesyz2d7za7hwev8qse6yc5 "-7984" "405827" "-36928" "140085" "90425" "181038" "109147" "-113737" "377700" "293284"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./tw51tqde1qpbf7v3g9fbrcin "-46007" "403430" "-327532" "336090" "-132113" "-100352" "236090" "319881" "-405493" "168869" "-53491"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./1uqdah642cc2602acps5zrd0 "45882" "-81503" "-69146" "-415298" "73626" "-353151" "232368" "401539" "-278850" "-212581" "38967" "241000" "62478" "-206291" "61758" "-985" "373896" "187982"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./ohg64uoqbjjlyj2x19p368se "-369572" "397461" "-89895" "-412186" "-311264" "277239" "88997" "-117306" "124684" "-315257" "-374229" "223292" "92932" "-409572" "-1453" "-223934" "406279"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./j5vu0pkux12gujl3kiw22das "-423773" "54234" "-407783" "-70560" "20219" "13757" "-249974" "-174386" "-421505" "373947" "380507" "-19085" "354115" "-230248" "330599" "216717" "383158" "382592" "-253720"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./3d1oskjjj1hoa84ul8j0ry90 "-241020" "85521" "166646" "-393128" "50604" "-65245" "-32461" "-367205" "-224643" "50045" "-187997" "391643" "-52806" "255198" "-343454" "301922"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex03 =========================================================================
+$> /usr/bin/norminette  ft_any.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_any.c main.c -o user_exe
+ft_any.c:22:19: error: incompatible integer to pointer conversion passing 'int' to parameter of type 'int (*)(char *)' [-Werror,-Wint-conversion]
+                r = ft_any(tab, f(tab[i]));
+                                ^~~~~~~~~
+ft_any.c:13:30: note: passing argument to parameter 'f' here
+int     ft_any(char **tab, int (*f)(char*))
+                                 ^
+1 error generated.
+
+Could not compile 'user_exe'
+Grade: 0
+
+= ex04 =========================================================================
+$> /usr/bin/norminette  ft_count_if.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_count_if.c -o user_exe
+ft_count_if.c:22:28: error: incompatible integer to pointer conversion passing 'int' to parameter of type 'int (*)(char *)' [-Werror,-Wint-conversion]
+                r = r + ft_count_if(tab, f(tab[i]));
+                                         ^~~~~~~~~
+ft_count_if.c:13:35: note: passing argument to parameter 'f' here
+int     ft_count_if(char **tab, int (*f)(char*))
+                                      ^
+1 error generated.
+
+Could not compile 'user_exe'
+Grade: 0
+
+= ex05 =========================================================================
+$> /usr/bin/norminette  ft_is_sort.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_is_sort.c -o user_exe
+
+= Test 1 ===================================================
+$> ./miudf9296zm0nt0d09ryfh6r
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./nwbc2wqkf10zuwn75xi6xh92 "-161274"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./qbshrw9b0hq9v4dfjxcs6v3i "-372522" "-264607" "-263303" "-198547" "-78040" "-43991" "-1939" "87989" "107626" "187696" "236094" "296192" "307619" "338194"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./cm9ncu0yvb61smxiss6xtf5x "-227443" "-160243" "-154446" "89602" "149837" "155906" "204027" "260244" "344962" "411149"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./cavu7ffgjwinjt3z4hhvm7ug "-345607" "-344366" "-83085" "247005"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+--- user_output_test5	2018-10-05 15:34:04.000000000 +0300$
++++ test5.output	2018-10-05 15:34:04.000000000 +0300$
+@@ -1,3 +1,3 @@$
+ 1$
+-0$
++1$
+ 0$
+
+Diff KO :(
+Grade: 0
+
+= ex06 =========================================================================
+2
+62
+0
+0
+Stop : division by zero
+0
+2
+2147483646
+-2147483648
+2147483647
+-2147483645
+2147483647
+Stop : modulo by zero
+
+$> diff -U 3 user_output ref_output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex07 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex08 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex09 =========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 0 ===============================================================
+
+END
