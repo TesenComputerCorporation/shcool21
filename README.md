@@ -96,7 +96,7 @@ TOTAL SCORE 0% (FAIL)
 - Exam02 __SUCCESS with 64%__
 - ExamFinal __SUCCESS with 45%__
 
-#ИТОГ
+# ИТОГ
 Принят в школу (НЕ резерв)
 
 __Итоговый уровень "Бассейна": 3 (75%)__
