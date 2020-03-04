@@ -1,0 +1,139 @@
+Subject: [Deepthought] Your trace for Day 07
+From: deepthought-no-reply@21-school.ru
+To: jjerde@student.21-school.ru
+Date: Fri, 28 Sep 2018 05:49:02 +0300
+
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e4r10p5.21-school.ru
+Darwin 16.7.0 x86_64
+$> date
+Fri Sep 28 05:48:49 MSK 2018
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2018/activities/piscine_c_day_07/jjerde
+
+= Git history ==================================================================
+$> git -C /var/folders/ky/xdfsq80s30q_s5_bh_6z7hw40000gq/T/tmp0FwZJ_/user log --pretty='%H - %an, %ad : %s'
+e8d7998c6bc66638b3633d5591ece7c5d21a2f97 - Jhiqui Jerde, Thu Sep 27 23:43:49 2018 +0300 : dsfsdfsdfsdfs
+0064c144442119939aaa624f9fc34bc5cda02f60 - Jhiqui Jerde, Thu Sep 27 22:28:01 2018 +0300 : rnfevbevbeib evbebve
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/ky/xdfsq80s30q_s5_bh_6z7hw40000gq/T/tmp0FwZJ_/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  738 Sep 28 05:48 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Sep 28 05:48 ex00
+drwxr-xr-x  3 deepthought  deepthought  102 Sep 28 05:48 ex01
+drwxr-xr-x  3 deepthought  deepthought  102 Sep 28 05:48 ex02
+drwxr-xr-x  3 deepthought  deepthought  102 Sep 28 05:48 ex03
+drwxr-xr-x  3 deepthought  deepthought  102 Sep 28 05:48 ex04
+
+/var/folders/ky/xdfsq80s30q_s5_bh_6z7hw40000gq/T/tmp0FwZJ_/user/ex00:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1260 Sep 28 05:48 ft_strdup.c
+
+/var/folders/ky/xdfsq80s30q_s5_bh_6z7hw40000gq/T/tmp0FwZJ_/user/ex01:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1145 Sep 28 05:48 ft_range.c
+
+/var/folders/ky/xdfsq80s30q_s5_bh_6z7hw40000gq/T/tmp0FwZJ_/user/ex02:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1179 Sep 28 05:48 ft_ultimate_range.c
+
+/var/folders/ky/xdfsq80s30q_s5_bh_6z7hw40000gq/T/tmp0FwZJ_/user/ex03:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1460 Sep 28 05:48 ft_concat_params.c
+
+/var/folders/ky/xdfsq80s30q_s5_bh_6z7hw40000gq/T/tmp0FwZJ_/user/ex04:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1898 Sep 28 05:48 ft_split_whitespaces.c
+
+= ex00 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strdup.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_strdup.c -o user_exe
+
+= Test 1 ===================================================
+$> ./wmcjlllxi100gninmyxo68yn
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex01 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_range.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_range.c -o user_exe
+
+= Test 1 ===================================================
+$> ./ahg7gqnkhq4ljzozswwg9oxa
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex02 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_ultimate_range.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror main.c ft_ultimate_range.c -o user_exe
+
+= Test 1 ===================================================
+$> ./7p19y5pht5l6xjtc0zp27fm2
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex03 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_concat_params.c | grep -E '^(Error|Warning)'
+
+$> gcc -Wextra -Wall -Werror ft_concat_params.c main.c -o user_exe
+ft_concat_params.c:49:19: error: implicitly declaring library function 'malloc' with type 'void *(unsigned long)' [-Werror,-Wimplicit-function-declaration]
+        result = (char *)malloc(sizeof(*result) * (z + 1));
+                         ^
+ft_concat_params.c:49:19: note: include the header <stdlib.h> or explicitly provide a declaration for 'malloc'
+ft_concat_params.c:53:13: error: incompatible pointer to integer conversion assigning to 'char' from 'char *'; dereference with * [-Werror,-Wint-conversion]
+                result[i] = ft_strcat(result, argv[i + 1]);
+                          ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                            *
+2 errors generated.
+
+Could not compile 'user_exe'
+Grade: 0
+
+= ex04 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_split_whitespaces.c | grep -E '^(Error|Warning)'
+Error (line 33): bad indentation
+Error (line 45): function ft_split_whitespaces has 27 lines
+Error (line 73, col 1): missing space after return
+
+Norme check FAILED
+Grade: 0
+
+= ex05 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex06 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex07 =========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 30 ==============================================================
+
+END
