@@ -91,10 +91,10 @@ AKREKHOV, LORD COMMANDER OF THE NIGHT'S WATCH 🦅 says:
 TOTAL SCORE 0% (FAIL)
 
 ## Экзамены
--Exam00 __SUCCESS with 60%__
--Exam01 __SUCCESS with 43%__
--Exam02 __SUCCESS with 64%__
--ExamFinal __SUCCESS with 45%__
+- Exam00 __SUCCESS with 60%__
+- Exam01 __SUCCESS with 43%__
+- Exam02 __SUCCESS with 64%__
+- ExamFinal __SUCCESS with 45%__
 
 #ИТОГ
 Принят в школу (НЕ резерв)
